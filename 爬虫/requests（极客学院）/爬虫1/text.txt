@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>≈¿≥Ê≤‚ ‘</title>
+	</head>
+	<body>
+		<div class="topic"><a href="http://www.jikexueyuan.com/welcome.html">sxn</a>
+			<div class="list">
+				<ul>
+					<li><a href="http://www.jikexueyuan.com/1.html">one</a></li>
+					<li><a href="http://www.jikexueyuan.com/2.html">two</a></li>
+					<li><a href="http://www.jikexueyuan.com/3.html">three</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

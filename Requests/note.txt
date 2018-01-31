@@ -1,0 +1,5 @@
+1、cmd调用curl命令进行文件传输
+curl -v "http" 		获取对应网页的request和response以及网页源代码
+
+2、urllib和urllib2是两个独立的模块
+requests库使用了urllib3(多次请求重复使用一个socket)

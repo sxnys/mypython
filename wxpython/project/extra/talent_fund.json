@@ -1,0 +1,156 @@
+{
+	"cover" :
+	{
+		"type" : "",
+		"applicant" : "",
+		"project_name" : "",
+		"application_field" : "",
+		"working_dep": "",
+		"telephone" : ""
+	},
+	"expert" :
+	[
+		{
+			"name" : "",
+            "working_dep" : "",
+            "filed" : ""
+		}
+	],
+	"basic_info" :
+	{
+        "personal_info" :
+        {
+        	"name" : "",
+        	"gender" : "",
+        	"birthday" : "",
+        	"bachelor" : "",
+        	"job" : "",
+        	"dep_job" : "",
+        	"research" : "",
+        	"id_name" : "",
+        	"id_num" : "",
+        	"office_phone" : "",
+        	"telephone" : "",
+        	"email" : ""
+        },
+        "dep_info" :
+        {
+        	"dep_name" : "",
+        	"telephone" : "",
+        	"address" : ""
+        }
+	},
+	"research_result" : "",
+	"work_and_significance" : "",
+	"personal_profile" :
+	{
+		"learning_exp" :
+		[
+			{
+				"start_end_date" : "",
+				"school_name" : "",
+				"major_subject" : "",
+				"bachelor" : ""
+			}
+		],
+		"working_exp" :
+		[
+			{
+				"start_end_date" : "",
+				"working_dep" : "",
+				"job" : ""
+			}
+		],
+		"projects_info" :
+		[
+			{
+				"id" : "",
+				"start_end_date" : "",
+				"project_name" : "",
+				"project_type" : "",
+				"source" : "",
+				"fund" : "",
+				"mission" : "",
+				"sort" : ""
+			}
+		],
+		"repr_results_to_word" :
+		[
+			{
+				"type": "",
+				"author": "",
+				"title": "",
+				"detail_info": "",
+				"contribution_refs_info":  ""
+			}
+		],
+		"repr_results" :
+		[
+			{
+				"type" : "paper",
+				"author" : "",
+				"paper_title" : "",
+				"journal_title" : "",
+				"journal_year" : "",
+				"start_end_page" : "",
+				"contribution_refs_info" : "",
+				"attach" : ""
+			},
+			{
+				"type" : "book",
+				"author" : "",
+				"book_title" : "",
+				"publish_house" : "",
+				"publish_year" : "",
+				"publish_address" : "",
+				"contribution_refs_info" : "",
+				"attach" : ""
+			},
+			{
+				"type" : "tech_report",
+				"author" : "",
+				"report_title" : "",
+				"complete_year" : "",
+				"contribution_refs_info" : "",
+				"attach" : ""
+			},
+			{
+				"type" : "academic_report",
+				"author" : "",
+				"report_title" : "",
+				"report_year" : "",
+				"conference_name" : "",
+				"conference_address" : "",
+				"contribution_refs_info" : "",
+				"attach" : ""
+			}
+		],
+		"awards" :
+		[
+			{
+				"person_name" : "",
+				"sort" : "",
+				"project_name" : "",
+				"year" : "",
+				"category" : "",
+				"rank" : "",
+				"contribution" : "",
+				"attach" : ""
+			}
+		],
+		"patent" : 
+		[
+			{
+				"person_name" : "",
+				"patent_name" : "",
+				"year" : "",
+				"application_num" : "",
+				"approved_year" : "",
+				"patent_num" : "",
+				"contribution_conduct" : "",
+				"attach" : ""
+			}
+		]
+	},
+	"dep_review" : ""
+}

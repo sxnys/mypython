@@ -1,0 +1,1140 @@
+
+  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head id="headerid1">
+	<base target='_self'>
+	<title>学生个人考试成绩</title>	
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="keywords" content="湖南强智科技教务系统">
+	<meta http-equiv="description" content="湖南强智科技教务系统">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<script type="text/javascript" src="/njlgdx/js/jquery-min.js" language="javascript" ></script>
+<script type="text/javascript" src="/njlgdx/js/common.js" language="javascript" ></script>
+<script type="text/javascript" src="/njlgdx/js/iepngfix_tilebg.js" language="javascript" ></script>
+<link href="/njlgdx/framework/images/common.css" rel="stylesheet" type="text/css" />
+<link href="/njlgdx/framework/images/blue.css" rel="stylesheet" type="text/css" id="link_theme" />
+<link href="/njlgdx/framework/images/workstation.css" rel="stylesheet" type="text/css" />
+</head>
+<iframe id="notSession" name="notSession" style="display: none;" src=""></iframe>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	window.setInterval(function(){
+		 document.getElementById("notSession").src = "/njlgdx/framework/blankPage.jsp";
+	 }, 1000 * 60 * 10);
+});
+</script>
+<body>
+
+
+
+
+<div class="Nsb_pw">
+  <div class="Nsb_top">
+    <div class="Nsb_top_logo"><table border="0" cellpadding="0" cellspacing="0"><tr><td height="75" valign="middle"><img style="display:;" id="imgLogo" src="/njlgdx/framework/images/index_logo.gif" /></td></tr></table></div>
+    <div class="Nsb_top_menu">        
+        <div id="Top1_divLoginName" class="Nsb_top_menu_nc" style="color: #000000;">桑笑楠(913000720238)</div>
+        <ul>
+            <li><a id="TopUserSetting" info="个人设置" href="#" class="Nsb_top_menu_id"><img src="/njlgdx/framework/images/Nsb_top_p1.jpg" id="Top1_imgTopSmallUserPhoto" /></a></li>
+            <span></span>                                      
+            <li><a id="TopTheme" info="切换主题" href="#" class="Nsb_top_menu_style" onclick="changeDisplay('divTopTheme')"></a></li>
+            <span id="Top1_LBackManageSpliter"></span>
+            <span id="Top1_LExitSpliter"></span>
+            <li id="Top1_LBackManage">
+            	<a info="个人设置" href="/njlgdx/grsz/grsz_xggrxx.do?Ves632DSdyV=NEW_JSD_WDZM" class="Nsb_top_menu_options"></a>
+            </li>
+            <li id="Top1_LExit"><a info="退出" href="javascript:Logout('/njlgdx');" class="Nsb_top_menu_exit"></a></li>
+        </ul>            
+     </div>   
+     <div id="divTopTheme" group="topDiv" style="display:none;z-index:10000">      
+        <div class="Nsb_top_c Nsb_top_c3">
+          <ul>
+            <li id="theme_blue" theme="blue" index="1" class="Nsb_top_c3_11" onclick="javascript:changeTheme('/njlgdx','blue',this);"></li>
+            <li id="theme_green" theme="green" index="2" class="Nsb_top_c3_2"  onclick="javascript:changeTheme('/njlgdx','green',this);"></li>
+            <li id="theme_orange" theme="orange" index="3" class="Nsb_top_c3_3" onclick="javascript:changeTheme('/njlgdx','orange',this);"></li>
+            <li id="theme_red" theme="red" index="4" class="Nsb_top_c3_4"  onclick="javascript:changeTheme('/njlgdx','red',this);"></li>
+            <li id="theme_purple" theme="purple" index="5" class="Nsb_top_c3_5" onclick="javascript:changeTheme('/njlgdx','purple',this);"></li>
+            <li id="theme_gray" theme="gray" index="6" class="Nsb_top_c3_6"  onclick="javascript:changeTheme('/njlgdx','gray',this);"></li>
+          </ul>
+        </div>
+     </div>
+   </div>
+</div>
+<div class="Nsb_menu_pw">
+  <div class="Nsb_pw">
+    <div id="divFirstMenuClass" class="Nsb_menu menu_cn">
+      <ul>         
+         <li class="Nsb_menu_li_now" title="首页">
+         	<a class="Nsb_menu_li_h" id="homepage" href="/njlgdx/framework/main.jsp"><span></span></a>
+         </li>
+         
+         	<li title="我的桌面">
+         		<a id="calender_user_schedule" href="/njlgdx/jxzl/jxzl_query?Ves632DSdyV=NEW_XSD_WDZM">我的桌面</a>
+         	</li>
+         
+         	<li title="学籍成绩">
+         		<a id="calender_user_schedule" href="/njlgdx/xsxj/xjxxgl.do?Ves632DSdyV=NEW_XSD_XJCJ">学籍成绩</a>
+         	</li>
+         
+         	<li title="培养管理">
+         		<a id="calender_user_schedule" href="/njlgdx/pyfa/pyfadg_query?Ves632DSdyV=NEW_XSD_PYGL">培养管理</a>
+         	</li>
+         
+         	<li title="考试报名">
+         		<a id="calender_user_schedule" href="/njlgdx/xsks/xsksap_query?Ves632DSdyV=NEW_XSD_KSBM">考试报名</a>
+         	</li>
+         
+         	<li title="教学评价">
+         		<a id="calender_user_schedule" href="/njlgdx/xspj/xspj_find.do?Ves632DSdyV=NEW_XSD_JXPJ">教学评价</a>
+         	</li>
+         
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+function Logout(url){
+	window.location.href = url + "/xk/LoginToXk?method=exit";
+}
+</script>
+<div class="Nsb_pw">   
+	<br/>
+	<div class="Nsb_r_title"><a href="/njlgdx/framework/main.jsp"">首页</a> » 考试成绩 » 课程成绩查询 » 查询列表</div>
+	<input type="button" id="btn_back" class="button" value="返 回" onclick="window.location.href='/njlgdx/kscj/cjcx_query';"/>
+	<br />查询条件：全部
+	<table id="dataList" width="100%" border="0" cellspacing="0" cellpadding="0" class="Nsb_r_list Nsb_table">
+		<tr>
+			<th class="Nsb_r_list_thb" style="width: 35px;">序号</th>
+			<th class="Nsb_r_list_thb" style="width: 140px;">开课学期</th>
+			<th class="Nsb_r_list_thb" style="width: 110px;">课程编号</th>
+			<th class="Nsb_r_list_thb">课程名称</th>
+			<th class="Nsb_r_list_thb" style="width: 60px;">成绩</th>
+			<th class="Nsb_r_list_thb" style="width: 60px;">成绩标识</th>
+			<th class="Nsb_r_list_thb" style="width: 50px;">学分</th>
+			<th class="Nsb_r_list_thb" style="width: 50px;">总学时</th>
+			<th class="Nsb_r_list_thb" style="width: 60px;">考核方式</th>
+			<th class="Nsb_r_list_thb" style="width: 60px;">课程属性</th>
+			<th class="Nsb_r_list_thb" style="width: 120px;">课程性质</th>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>2013-2014-1</td>
+			<td align="left">06026202</td>
+			<td align="left">计算机原理与数据结构</td>
+			
+			<td style=" ">93</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>2</td>
+			<td>2013-2014-1</td>
+			<td align="left">11123203</td>
+			<td align="left">高等代数（Ⅰ）</td>
+			
+			<td style=" ">100</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>3</td>
+			<td>2013-2014-1</td>
+			<td align="left">11129201</td>
+			<td align="left">数学分析（Ⅰ）</td>
+			
+			<td style=" ">95</td>
+			
+			
+			<td></td>
+			<td>5</td>
+			<td>80</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>4</td>
+			<td>2013-2014-1</td>
+			<td align="left">14005001</td>
+			<td align="left">综合英语</td>
+			
+			<td style=" ">83</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>5</td>
+			<td>2013-2014-1</td>
+			<td align="left">14022903</td>
+			<td align="left">英语口语</td>
+			
+			<td style=" ">86</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>6</td>
+			<td>2013-2014-1</td>
+			<td align="left">15045601</td>
+			<td align="left">思想道德修养与法律基础</td>
+			
+			<td style=" ">86</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>7</td>
+			<td>2013-2014-1</td>
+			<td align="left">17020101</td>
+			<td align="left">文化导论</td>
+			
+			<td style=" ">80</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>8</td>
+			<td>2013-2014-1</td>
+			<td align="left">21020302</td>
+			<td align="left">军事训练</td>
+			
+			<td style=" ">87</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>9</td>
+			<td>2013-2014-1</td>
+			<td align="left">21020502</td>
+			<td align="left">军事理论</td>
+			
+			<td style=" ">85</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>10</td>
+			<td>2013-2014-1</td>
+			<td align="left">21120102</td>
+			<td align="left">体育（Ⅰ）</td>
+			
+			<td style=" ">88</td>
+			
+			
+			<td></td>
+			<td>1</td>
+			<td>24</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>11</td>
+			<td>2013-2014-2</td>
+			<td align="left">06000305</td>
+			<td align="left">C语言程序设计</td>
+			
+			<td style=" ">94</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>12</td>
+			<td>2013-2014-2</td>
+			<td align="left">06031001</td>
+			<td align="left">基础算法</td>
+			
+			<td style=" ">100</td>
+			
+			
+			<td></td>
+			<td>1.5</td>
+			<td>24</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>13</td>
+			<td>2013-2014-2</td>
+			<td align="left">11120804</td>
+			<td align="left">大学物理（Ⅰ）</td>
+			
+			<td style=" ">72</td>
+			
+			
+			<td></td>
+			<td>3.5</td>
+			<td>56</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>14</td>
+			<td>2013-2014-2</td>
+			<td align="left">11120904</td>
+			<td align="left">大学物理实验（Ⅰ）</td>
+			
+			<td style=" ">优秀</td>
+			
+			
+			<td></td>
+			<td>1.5</td>
+			<td>24</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>15</td>
+			<td>2013-2014-2</td>
+			<td align="left">11223203</td>
+			<td align="left">高等代数（Ⅱ）</td>
+			
+			<td style=" ">94</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>16</td>
+			<td>2013-2014-2</td>
+			<td align="left">11229201</td>
+			<td align="left">数学分析（Ⅱ）</td>
+			
+			<td style=" ">94</td>
+			
+			
+			<td></td>
+			<td>6</td>
+			<td>96</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>17</td>
+			<td>2013-2014-2</td>
+			<td align="left">14021801</td>
+			<td align="left">口语实践</td>
+			
+			<td style=" ">85</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>18</td>
+			<td>2013-2014-2</td>
+			<td align="left">14140401</td>
+			<td align="left">英语交流（Ⅰ）</td>
+			
+			<td style=" ">76</td>
+			
+			
+			<td></td>
+			<td>1</td>
+			<td>16</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>19</td>
+			<td>2013-2014-2</td>
+			<td align="left">15045302</td>
+			<td align="left">毛泽东思想和中国特色社会主义理论体系概论</td>
+			
+			<td style=" ">86</td>
+			
+			
+			<td></td>
+			<td>6</td>
+			<td>96</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>20</td>
+			<td>2013-2014-2</td>
+			<td align="left">21220102</td>
+			<td align="left">体育（Ⅱ）</td>
+			
+			<td style=" ">89</td>
+			
+			
+			<td></td>
+			<td>1</td>
+			<td>24</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>21</td>
+			<td>2014-2015-1</td>
+			<td align="left">10022104</td>
+			<td align="left">电路</td>
+			
+			<td style=" ">92</td>
+			
+			
+			<td></td>
+			<td>4.5</td>
+			<td>72</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>22</td>
+			<td>2014-2015-1</td>
+			<td align="left">11022502</td>
+			<td align="left">概率与过程</td>
+			
+			<td style=" ">94</td>
+			
+			
+			<td></td>
+			<td>4.5</td>
+			<td>72</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>23</td>
+			<td>2014-2015-1</td>
+			<td align="left">11035301</td>
+			<td align="left">现代物理</td>
+			
+			<td style=" ">96</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>24</td>
+			<td>2014-2015-1</td>
+			<td align="left">11220804</td>
+			<td align="left">大学物理（Ⅱ）</td>
+			
+			<td style=" ">90</td>
+			
+			
+			<td></td>
+			<td>3.5</td>
+			<td>56</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>25</td>
+			<td>2014-2015-1</td>
+			<td align="left">11220904</td>
+			<td align="left">大学物理实验（Ⅱ）</td>
+			
+			<td style=" ">优秀</td>
+			
+			
+			<td></td>
+			<td>1.5</td>
+			<td>24</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>26</td>
+			<td>2014-2015-1</td>
+			<td align="left">11329201</td>
+			<td align="left">数学分析（Ⅲ）</td>
+			
+			<td style=" ">97</td>
+			
+			
+			<td></td>
+			<td>6</td>
+			<td>96</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>27</td>
+			<td>2014-2015-1</td>
+			<td align="left">14240401</td>
+			<td align="left">英语交流（Ⅱ）</td>
+			
+			<td style=" ">88</td>
+			
+			
+			<td></td>
+			<td>1</td>
+			<td>16</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>28</td>
+			<td>2014-2015-1</td>
+			<td align="left">15042401</td>
+			<td align="left">中国近现代史纲要</td>
+			
+			<td style=" ">89</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>29</td>
+			<td>2014-2015-1</td>
+			<td align="left">21320102</td>
+			<td align="left">体育（Ⅲ）</td>
+			
+			<td style=" ">84</td>
+			
+			
+			<td></td>
+			<td>0.5</td>
+			<td>24</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>30</td>
+			<td>2014-2015-1</td>
+			<td align="left">23020502</td>
+			<td align="left">工程技术实习</td>
+			
+			<td style=" ">优秀</td>
+			
+			
+			<td></td>
+			<td>4</td>
+			<td>160</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>31</td>
+			<td>2014-2015-2</td>
+			<td align="left">04026302</td>
+			<td align="left">数字逻辑电路</td>
+			
+			<td style=" ">94</td>
+			
+			
+			<td></td>
+			<td>4</td>
+			<td>64</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>32</td>
+			<td>2014-2015-2</td>
+			<td align="left">04026801</td>
+			<td align="left">模拟电子线路</td>
+			
+			<td style=" ">84</td>
+			
+			
+			<td></td>
+			<td>4</td>
+			<td>64</td>
+			<td>考试</td>
+			<td>任选</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>33</td>
+			<td>2014-2015-2</td>
+			<td align="left">04137001</td>
+			<td align="left">电工电子综合实验（Ⅰ）</td>
+			
+			<td style=" ">优秀</td>
+			
+			
+			<td></td>
+			<td>0.5</td>
+			<td>20</td>
+			<td>考查</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>34</td>
+			<td>2014-2015-2</td>
+			<td align="left">11022402</td>
+			<td align="left">复变函数与积分变换</td>
+			
+			<td style=" ">96</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>35</td>
+			<td>2014-2015-2</td>
+			<td align="left">11029303</td>
+			<td align="left">数学建模</td>
+			
+			<td style=" ">74</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>36</td>
+			<td>2014-2015-2</td>
+			<td align="left">15045201</td>
+			<td align="left">马克思主义基本原理</td>
+			
+			<td style=" ">90</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>37</td>
+			<td>2014-2015-2</td>
+			<td align="left">170202E1</td>
+			<td align="left">电磁学【英】</td>
+			
+			<td style=" ">82</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>38</td>
+			<td>2014-2015-2</td>
+			<td align="left">17020301</td>
+			<td align="left">英语写作</td>
+			
+			<td style=" ">90</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>39</td>
+			<td>2014-2015-2</td>
+			<td align="left">21420102</td>
+			<td align="left">体育（Ⅳ）</td>
+			
+			<td style=" ">86</td>
+			
+			
+			<td></td>
+			<td>0.5</td>
+			<td>24</td>
+			<td>考查</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>40</td>
+			<td>2015-2016-1</td>
+			<td align="left">06020102</td>
+			<td align="left">计算机网络</td>
+			
+			<td style=" ">76</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>41</td>
+			<td>2015-2016-1</td>
+			<td align="left">06020802</td>
+			<td align="left">计算机组成原理</td>
+			
+			<td style=" ">91</td>
+			
+			
+			<td></td>
+			<td>4.5</td>
+			<td>72</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>42</td>
+			<td>2015-2016-1</td>
+			<td align="left">06021802</td>
+			<td align="left">JAVA程序设计</td>
+			
+			<td style=" ">89</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考查</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>43</td>
+			<td>2015-2016-1</td>
+			<td align="left">06022105</td>
+			<td align="left">离散数学</td>
+			
+			<td style=" ">98</td>
+			
+			
+			<td></td>
+			<td>4.5</td>
+			<td>72</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>44</td>
+			<td>2015-2016-1</td>
+			<td align="left">06022507</td>
+			<td align="left">数据库基础</td>
+			
+			<td style=" ">91</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>48</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>45</td>
+			<td>2015-2016-1</td>
+			<td align="left">06131501</td>
+			<td align="left">程序设计基础（Ⅰ）</td>
+			
+			<td style=" ">94</td>
+			
+			
+			<td></td>
+			<td>4</td>
+			<td>64</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>46</td>
+			<td>2015-2016-2</td>
+			<td align="left">06021904</td>
+			<td align="left">编译原理</td>
+			
+			<td style=" ">80</td>
+			
+			
+			<td></td>
+			<td>2.5</td>
+			<td>40</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>47</td>
+			<td>2015-2016-2</td>
+			<td align="left">06022003</td>
+			<td align="left">操作系统</td>
+			
+			<td style=" ">88</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>48</td>
+			<td>2015-2016-2</td>
+			<td align="left">06022202</td>
+			<td align="left">软件工程与方法学</td>
+			
+			<td style=" ">84</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>49</td>
+			<td>2015-2016-2</td>
+			<td align="left">06022404</td>
+			<td align="left">数据结构</td>
+			
+			<td style=" ">92</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>0</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>50</td>
+			<td>2015-2016-2</td>
+			<td align="left">06023102</td>
+			<td align="left">算法设计与分析</td>
+			
+			<td style=" ">94</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>51</td>
+			<td>2015-2016-2</td>
+			<td align="left">06027801</td>
+			<td align="left">J2EE实用基础</td>
+			
+			<td style=" ">93</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>52</td>
+			<td>2015-2016-2</td>
+			<td align="left">06225402</td>
+			<td align="left">软件课程设计（Ⅱ）</td>
+			
+			<td style=" ">良好</td>
+			
+			
+			<td></td>
+			<td>1</td>
+			<td>40</td>
+			<td>考查</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>53</td>
+			<td>2015-2016-2</td>
+			<td align="left">07061001</td>
+			<td align="left">科技信息检索与利用</td>
+			
+			<td style=" ">88</td>
+			
+			
+			<td></td>
+			<td>1</td>
+			<td>16</td>
+			<td>考查</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>54</td>
+			<td>2016-2017-1</td>
+			<td align="left">06021101</td>
+			<td align="left">毕业实习</td>
+			
+			<td style=" ">良好</td>
+			
+			
+			<td></td>
+			<td>3</td>
+			<td>120</td>
+			<td>考试</td>
+			<td>计划外</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>55</td>
+			<td>2016-2017-1</td>
+			<td align="left">06027403</td>
+			<td align="left">软件项目管理</td>
+			
+			<td style=" ">86</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>计划外</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>56</td>
+			<td>2016-2017-1</td>
+			<td align="left">06030001</td>
+			<td align="left">图形学和可视化计算</td>
+			
+			<td style=" ">92</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>计划外</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>57</td>
+			<td>2016-2017-1</td>
+			<td align="left">06031401</td>
+			<td align="left">面向对象编程技术</td>
+			
+			<td style=" ">84</td>
+			
+			
+			<td></td>
+			<td>2</td>
+			<td>32</td>
+			<td>考试</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>58</td>
+			<td>2016-2017-2</td>
+			<td align="left">17020601</td>
+			<td align="left">毕业设计</td>
+			
+			<td style=" ">良好</td>
+			
+			
+			<td></td>
+			<td>18</td>
+			<td>720</td>
+			<td>考查</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>59</td>
+			<td>2016-2017-2</td>
+			<td align="left">36000001</td>
+			<td align="left">形势与政策</td>
+			
+			<td style=" ">83</td>
+			
+			
+			<td></td>
+			<td>1</td>
+			<td>16</td>
+			<td>考查</td>
+			<td>必修</td>
+			<td></td>
+		</tr>
+		
+	</table>
+</div>
+<br />
+
+<div id="Footer1_divCopyright" class="Nsb_pw" style="display:;">
+  <div class="Nsb_rights">Copyright (C) 湖南强智科技发展有限公司 2003-2013 All Rights Reserved 湘ICP 备12010071号</div>
+</div>
+<script language="javascript">
+
+//合并学年学期列
+//jQuery("#dataList").rowspan(1);
+</script>
+</body>
+</html>

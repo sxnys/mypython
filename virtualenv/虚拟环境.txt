@@ -1,0 +1,7 @@
+新建虚拟环境 virtualenv testvir，环境目录在当前cmd目录下
+进入虚拟环境，在Scripts目录下执行activate.bat，退出deactivate.bat
+
+其他的虚拟环境：
+安装virtualenvwrapper，pip install virtualenvwrapper-win
+直接就可以新建虚拟环境了，所有的虚拟环境目录都自动放在同一个目录下，新建一个虚拟环境mkvirtualenv testvir，然后直接进入了该虚拟环境，退出deactivate
+workon查看所有的虚拟环境，workon somevir进入某一个虚拟环境

@@ -1,0 +1,4 @@
+使用google开源项目pytesser库：
+首先安装PIL(Python Image Library)，官网没有64位版本，这里可以使用pillow代替，直接用pip安装即可；
+安装原PIL，调用Image库直接import image，安装了pillow则改为from PIL import image，所以在这里pytesser.py中将其改掉；
+此外，需要将pytesser加入到环境变量中，因为运行需要其中的tesseract.exe

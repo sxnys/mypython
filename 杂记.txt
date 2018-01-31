@@ -1,0 +1,38 @@
+1、itertools模块中有很多有用的函数
+product()返回若干个可迭代对象的笛卡儿积
+combinations()实现组合
+permutations()实现排列
+
+2、*解析列表元组将其中元素分解出来作为参数传入函数
+ADJACENTS = ('08', '124', '2135', '326', '4157', '52468', '6359', '748', '85790', '968')
+[''.join(p) for p in product(*(ADJACENTS[int(d)] for d in observed))]
+
+3、python解决数独问题
+人家的：（和我思路不一样，我是从头到尾死搜索，人家是先确定唯一的再继续，而且人家代码的简洁远比不上，因为自己对python数据结构的认识还不够深，对列表存储的矩阵操作不熟悉，但是不是所有的都能唯一确定，所以高难度数独下会无限循环，这种情况下还是我的暴搜靠谱）
+
+from itertools import product
+
+def possibles(puzzle, x, y):
+    a, b = 3*(x/3), 3*(y/3)
+    square = set([puzzle[r][c] for r, c in product(range(a,a + 3), range(b,b + 3))])
+    row = set(puzzle[x])
+    col = set(zip(*puzzle)[y])
+    return set(range(1,10)).difference(square.union(row).union(col))
+
+def sudoku(puzzle):
+    z = [(r,c) for (r,c) in product(range(9),range(9)) if puzzle[r][c] == 0]    
+    if z == []: 
+        return puzzle
+    for (r,c) in z:
+        p = possibles(puzzle, r, c)
+        if len(p) == 1:
+            puzzle[r][c] = p.pop()
+    return sudoku(puzzle)
+
+4、4 == 4.00  居然是True，整数是可以和浮点数比较的，比较的时候整数被转换为浮点数，直接看数值的大小
+
+5、py3和py2：range(n)，前者不再是列表，而是range对象，后者是列表；类似的还有很多，比如map函数
+
+6、对于不可变数据类型的值，变量保存值本身；对于可变数据类型的值，变量使用的是引用
+
+7、copy.copy和copy.deepcopy，一般不可变值的列表用浅拷贝即可，但是如果列表中包含了列表，使用浅拷贝的话里面的列表依然是引用，只要使用深拷贝就可以解决这个问题

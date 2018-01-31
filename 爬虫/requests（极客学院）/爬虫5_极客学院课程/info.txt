@@ -1,0 +1,1441 @@
+title:WebGL Three.js 纹理
+title:WebGL Three.js 纹理
+content:本课程讲解 WebGL Three.js 纹理，内容包括使用凹凸贴图和法向贴图创建皱纹，用光照贴图创建阴影，用环境贴图创建反光效果以及高光贴图等。
+classtime:5课时 42分钟
+classlevel:中级
+learnnum:2085人学习
+
+title:C++ 函数（３）
+content:本课程详细讲解 C++ 语言中和函数的默认实参、内联函数和 constexpr 函数等，以及在程序调试中常用的一些功能、重载函数的匹配和函数指针。
+classtime:3课时 31分钟
+classlevel:初级
+learnnum:2109人学习
+
+title:数据采集模块 Falcon-Agent 源码解读
+content:本课程针对 Open-Falcon 的 Agent 模块，讲解其功能设计出发点、代码结构和执行流程，着重介绍数据采集逻辑。
+classtime:5课时 81分钟
+classlevel:中级
+learnnum:2086人学习
+
+title:Axure 团队项目协作和 Axure 使用技巧
+content:本课程讲解如何使用 Axure 团队项目允许多个用户同时编辑同一个项目文件，团队中的成员通过编辑团队项目的本地副本并使用签入和签出进行管理更新。还会分享在绘制原型过程中的一些 Axure 的使用技巧，以便于我们快速的设计 Axure 原型。
+classtime:3课时 50分钟
+classlevel:高级
+learnnum:2060人学习
+
+title:SpringMVC 常用注解类
+content:本课程是 SpringMVC 入门实战教程系列课程中的第二课，主要讲解 SpringMVC 常用注解类（RequestMapping、Controller、Service、Component 等），主要涉及到 spring-web 和 spring-context 这两个 jar 包，最后还会编写一个示例程序。
+classtime:4课时 50分钟
+classlevel:中级
+learnnum:2178人学习
+
+title:kafka 消息处理过程与集群维护
+content:本课程首先从磁盘随机和顺序读讲解 kafka 消息写入、删除的原理，然后会重点讲解 kafka 消息的检索（kafka consumer 定点消费原理），在之后会讲解 kafka 集群的维护，主要包括 kafka 集群的分区 leader 平衡，kafka 集群日志文件 broker 迁移等，最后会通过 Kafka Offset Monitor 和 Kafka Manager 两个 kafka 集群的监控工具对 kafka 集群进行监控。
+classtime:4课时 84分钟
+classlevel:高级
+learnnum:2104人学习
+
+title:FX Maker 特效的导出
+content:本课程主要介绍 FX Maker 特效的导出，通过对该插件里特效导出的讲解和操作演示，完成对 FX Maker 插件特效导出的了解和掌握。
+classtime:3课时 40分钟
+classlevel:中级
+learnnum:2100人学习
+
+title:对象识别技术原理
+content:本课程主要讲解基于界面的自动化测试的核心技术：对象识别的底层原理，学习完本课程可以对各类自动化测试工具运用得游刃有余而不会拘泥于测试工具本身，这是成为自动化测试大牛的必修课。
+classtime:5课时 88分钟
+classlevel:高级
+learnnum:2105人学习
+
+title:蜻蜓FM刷用户活跃度原理分析
+content:本课程介绍一般流氓软件的常用手段，内容包括启动多个服务、服务永驻、不定时自动启动服务、使用友盟统计应用数据、模拟用户活跃
+classtime:5课时 38分钟
+classlevel:中级
+learnnum:2976人学习
+
+title:第一个 Activiti 程序
+content:本课程通过 HelloWorld 程序开发，介绍 Activiti 的开发流程、H2 内存数据库的使用，讲解 MySQL 的安装、流程引擎、流程实例、流程任务，最后通过对该案例的分析，让学员在整体上把握开发流程，学会如何开发 Activiti 程序。
+classtime:4课时 49分钟
+classlevel:中级
+learnnum:2186人学习
+
+title:Python 操作数据库——查询优化实战
+content:本课程会使用一个网上可以免费下载的 IP 库（大致包含40万条 IP 号段的记录），首先会使用Python 和 torndb 做 ETL（抽取-转化-加载）并创建一个 ip 库的表。之后会逐项的的对这张表进行查询优化，通过改变查询语句，创建索引，更改数据类型，增加缓存命中率等方法来提升查询效率。最后会通过在数据库端和 Python 客户端两端同时进行优化进一步提升性能。最终实现将一个数秒的查询优化成数毫秒的查询，以提升上千倍的查询效率的方式展现数据库优化的魅力。
+classtime:3课时 32分钟
+classlevel:中级
+learnnum:2182人学习
+
+title:基于 Parse 的 iOS 实战项目开发之发送和接收消息推送
+content:本课程主要讲解如何配置、下载和在 Xcode 中安装 Apple 的开发认证证书。通过 Parse 的云端Web 平台或移动设备向用户的 App 推送消息，以及如何在移动设备上接收推送消息。
+classtime:5课时 65分钟
+classlevel:中级
+learnnum:2194人学习
+
+title:构造方法与析构方法
+content:本课程讲解了构造方法与析构方法，从基本语法开始并结合实例代码，通过实例详细讲解了构造方法与析构方法的使用方法。
+classtime:4课时 29分钟
+classlevel:中级
+learnnum:2094人学习
+
+title:Phaser.js 中的显示对象（三）
+content:本课程是 Phaser.js 中显示对象课程的第三部分，将讲解 Phaser 中的粒子系统以及瓦片地图的创建和使用方法。
+classtime:3课时 50分钟
+classlevel:初级
+learnnum:2202人学习
+
+title:非修改性序列算法之 For_each 算法
+content:本课程主要讲解非修改性序列算法中 For_each 算法的定义形式及其使用方法。
+classtime:4课时 24分钟
+classlevel:初级
+learnnum:2183人学习
+
+title:Meteor 会话与响应式
+content:本课程介绍了 Meteor 的会话（Session）和响应式（Reactivity）。Session 提供了一个全局的响应式数据存储。Reactivity 使得 Meteor 能够随时检测到数据的更改，并将它无缝地展现到用户界面上。
+classtime:3课时 33分钟
+classlevel:初级
+learnnum:2210人学习
+
+title:初级篇，开始使用 ASP.NET Identity
+content:本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。相信通过本课程，你能对 ASP.NET Identity 有了基本的概念，为后续课程做好准备。
+classtime:4课时 53分钟
+classlevel:中级
+learnnum:2275人学习
+
+title:Ruby 中的进程
+content:本课程讲解 Ruby 中的进程环境、进程控制和信号处理，并配以示例加以理解。
+classtime:3课时 26分钟
+classlevel:高级
+learnnum:2072人学习
+
+title:Android UiAutomator UiSelector API 详细介绍
+content:本课学习 UiAutomator UiSelector， UI元素的搜索向来是UI自动化测试的重中之重，搜索定位到界面的UI组件元素，然后操作控制它。本课学习各种搜索组件的方法，理解并掌握每种搜索方式，为后续能够得心应手地编写测试脚本奠定扎实的基础。
+classtime:9课时 67分钟
+classlevel:初级
+learnnum:2311人学习
+
+title:AJAX 文件上传
+content:本课程讲解两种无刷新页面文件上传实现方式，一种是利用 XMLHttpRequest Level 2 新增的 upload 对象，另一种是利用 iframe 伪 AJAX 方式。
+classtime:3课时 34分钟
+classlevel:初级
+learnnum:2799人学习
+
+title:增强现实 超凡体验 Qualcomm Vuforia SDK 在线培训
+content:本次培训主要对Qualcomm Vuforia 移动视觉平台和开发套件的功能特点作深度讲解，同时也包括相关配套工具，最新的云端识别服务和资费方案概况。除此之外培训中还将详细介绍最新发布的Vuforia 5 新功能——Mixed Reality 和其展现出的从手机平板到智能眼镜的 VR/AR 超凡体验的可能性。 从传统的手机、平板到新生代智能数码眼镜设备，Vuforia 不仅可用于创建增强现实应用，更可以支持整合了AR增强现实和 VR 虚拟现实的混合现实应用程序。至今，Vuforia 已被全球多家顶级品牌所采用，在全世界拥有超过17万注册开发者，并开发了2万多个应用程序，下载安装2亿逾次。
+classtime:2课时 52分钟
+classlevel:初级
+learnnum:2628人学习
+
+title:SSH 鲜花礼品网安全机制及实现
+content:本课程将在 Struts、Spring、Hibernate 整合后的框架基础上，给系统添加安全防护功能，主要包括下面内容：一是将指定账号挂失和解除挂失；二是利用拦截器拦截已经挂失的账号；三是拦截未经登录的访问，避免非法访问和修改数据等。
+classtime:3课时 47分钟
+classlevel:中级
+learnnum:2190人学习
+
+title:特殊容器用法
+content:本课程主要讲述位段类模板、堆栈类模板、队列类模板和优先队列模板的使用方法。
+classtime:4课时 69分钟
+classlevel:中级
+learnnum:2144人学习
+
+title:HBase Java 编程
+content:本课程能让大家使用 HBase Java API 进行 HBase 表的 CRUD，着重对过滤器和范围查询进行重点讲解。
+classtime:3课时 32分钟
+classlevel:初级
+learnnum:2180人学习
+
+title:Java中并发工具包(下）
+content:本课程主要介绍并发工具包中各种工具的编程模型及使用，其中包括锁、并发集合以及执行器。
+classtime:4课时 31分钟
+classlevel:中级
+learnnum:2252人学习
+
+title:iOS 设计模式——生成器
+content:本课程主要讲解设计模式中的生成器模式，并通过简单的实例讲解如何使用生成器模式。
+classtime:3课时 37分钟
+classlevel:高级
+learnnum:2782人学习
+
+title:如何通过 Nrpe 进行监控
+content:本课程主要讲解 Nrpe 在监控端与被监控的部署配置，如何通过 Nrpe 实现对 Linux 服务器进行监控，学习后可以掌握 Nrpe 监控 Linux 服务的方法。
+classtime:3课时 29分钟
+classlevel:中级
+learnnum:2092人学习
+
+title:EIGRP 路由协议
+content:本课程主要讲解 EIGRP 路由协议的基本内容和基本配置，使学生对 EIGRP 的理论知识进行初步了解，为下一步的学习打下基础。
+classtime:4课时 66分钟
+classlevel:高级
+learnnum:2113人学习
+
+title:Axure 统计图表设计
+content:本课程讲解 Axure 中设计统计图表，包括使用 Excel 设计统计图表方式和 HighChart 设计图表方式，利用他们可以设计出饼状图、柱状图、折线图等等不同形状的图表，介绍每种形状图表应用到不同的场合以及如何设计出不同形状的图表。
+classtime:4课时 74分钟
+classlevel:高级
+learnnum:2283人学习
+
+title:线性表的存储与操作(二)
+content:本课程将介绍单向链表的插入算法、删除算法、以及单向循环链表的算法以及双向循环链表的算法。
+classtime:3课时 29分钟
+classlevel:初级
+learnnum:2114人学习
+
+title:SSH 鲜花礼品网花品管理功能
+content:本课程将在 Struts、Spring、Hibernate 整合后的框架基础上，重点讲述如何以管理员身份对花品进行管理，包含以下重要内容：一是增加花品；二是修改已有花品；三是删除花品。以上功能的实现需要综合运用 SSH 框架技术，比如文件上传、Struts标签库、POJO 相关操作、Spring 配置等。
+classtime:3课时 56分钟
+classlevel:中级
+learnnum:2229人学习
+
+title:FileMaker 14 高级教学（一）数据和数据库
+content:本章作为本教程的开篇，将从数据库的建模入手，讲解数据库中表的关系以及怎样从一个抽象的商业模式中提取有效的数据库，并最终将其变成 FileMaker 的解决方案。同时我们将从基本的字段入手，学习怎样新建字段，容器，入口以及设置相关联的选项。
+classtime:5课时 37分钟
+classlevel:初级
+learnnum:2277人学习
+
+title:微信公众平台开发实战：天气预报查询
+content:本课程主要学习在微信公众平台中实现天气预报查询的功能，包括天气预报查询接口的使用、微信公众平台自定义回复、php截取字符串函数的使用，并结合这些知识来进行完整功能的开发。
+classtime:3课时 39分钟
+classlevel:中级
+learnnum:2763人学习
+
+title:跨域 AJAX 的实现
+content:基于 JavaScript 的同源策略，默认情况下不允许向其它域发起 AJAX 请求，但在开发过程，经常会有跨域的需求。本课程详细讲解各种常见跨域 AJAX 的实现方案。
+classtime:4课时 52分钟
+classlevel:初级
+learnnum:2486人学习
+
+title:使用 Bmob 搭建我们的第一个后端云 APP
+content:本课程将会帮助我们学习使用 Bmob 搭建我们的一个基于后端云 APP 的一个基本框架以及 Bmob 后台的基本使用。
+classtime:3课时 27分钟
+classlevel:中级
+learnnum:2555人学习
+
+title:Java Web 开发环境搭建与数据库设计
+content:本课程主要讲解如何搭建 Java Web 开发环境，以及无限级分销系统数据库设计与 MVC 设计模式和面向接口编程的讲解。通过本课程的学习，学员能掌握 Web 开发环境的搭建与配置，系统数据库的设计以及 MVC 设计模式开发和面向接口编程的理解与使用。
+classtime:4课时 90分钟
+classlevel:中级
+learnnum:2522人学习
+
+title:Photoshop——形状与布尔运算
+content:本课程主要讲解 Photoshop 的布尔运算原理、特性以及布尔运算路径操作技巧，并通过案例演示如何运用布尔运算绘制剪影图标和彩色图标等。
+classtime:3课时 67分钟
+classlevel:中级
+learnnum:2332人学习
+
+title:面象对象入门
+content:本课首先讲解什么是类、什么是对象、以及类与对象之间的关系、并从如何声明一个类开始逐步过渡到类中的成员属性与成员方法的定义，最后实例化一个对象，并通过对象访问成员属性和成员方法。
+classtime:3课时 43分钟
+classlevel:中级
+learnnum:2486人学习
+
+title:iOS 设计模式——备忘录
+content:本课程主要讲解设计模式中的备忘录模式，并通过简单的实例讲解如何使用备忘录模式，最后，通过抽象接口的方式来扩展备忘录模式的使用。
+classtime:4课时 38分钟
+classlevel:高级
+learnnum:2310人学习
+
+title:名企数据结构面试题之字符串（下）
+content:本课程介绍字符串相关面试题，讲解同分异构体、反转单词顺序、模式匹配等等问题，并总结解题规律，让大家掌握字符串相关面试题的常用解法。
+classtime:5课时 53分钟
+classlevel:中级
+learnnum:2166人学习
+
+title:设计模式之最后总结
+content:本课程总结了本系列课程中讲到的23个设计模式，并梳理了各自的关键点。也讲了涉及面向对象设计的六大原则。
+classtime:3课时 54分钟
+classlevel:中级
+learnnum:2456人学习
+
+title:FX Maker 的特效类型
+content:本课程主要介绍 FX Maker 的特效类型，通过对该插件里的特效类型的讲解和操作演示，完成对FX Maker 插件的特效类型的基本了解。
+classtime:3课时 44分钟
+classlevel:中级
+learnnum:2306人学习
+
+title:关联式容器之 Map/Multimap 的高级编程
+content:本课程主要讲述 Map/Multimap 的插入、删除、交换、统计元素个数、查找元素、元素的随机访问、元素的大小比较以及如何获取内存分配器等内容。
+classtime:6课时 75分钟
+classlevel:中级
+learnnum:2101人学习
+
+title:OpenSceneGraph 的安装与部署
+content:本课程力求帮助学员从原理上理解 OSG 源代码的编译方法，掌握 CMake 工具使用，源代码的编译，创建一个简单工程，以及最常用的工具使用。
+classtime:4课时 20分钟
+classlevel:初级
+learnnum:2152人学习
+
+title:冗余网络的设计
+content:本课程主要介绍冗余网络的设计，主要包括链路聚合技术（ EtherChannel）、HSRP 协议、VRRP 协议的讲解和案例演示。
+classtime:3课时 41分钟
+classlevel:初级
+learnnum:2137人学习
+
+title:用 SpringMVC 实现 CRM 客户关系管理系统整体介绍
+content:本课程主要讲解 SpringMVC 框架实现 CRM 客户关系管理系统的需求分析、系统数据库设计以及项目架构搭建等，让学员充分了解整体项目的开发流程与分析。
+classtime:3课时 35分钟
+classlevel:中级
+learnnum:2739人学习
+
+title:名企数据结构面试题之链表（上）
+content:本课程介绍链表相关面试题，讲解链表的最大元素、逆序打印链表、链表反转等问题，并总结解题规律，让大家初步掌握链表相关面试题的常用解法。
+classtime:4课时 66分钟
+classlevel:中级
+learnnum:2264人学习
+
+title:物联网技术导论（五）互联网概述
+content:网络是物联网最重要的基础设施之一。物联网是下一代互联网吗？为了解决这个问题，首先需要认识互联网。本课程讲述物联网基本概念和体系结构。
+classtime:3课时 46分钟
+classlevel:初级
+learnnum:2296人学习
+
+title:设计模式之访问者模式
+content:本课程以一个雇员管理系统增加数据处理功能的需求出发，分析需求和思考设计方案，然后提出通过访问者模式来解决问题，并详细讲解示例代码。
+classtime:3课时 33分钟
+classlevel:中级
+learnnum:2200人学习
+
+title:WebGL Three.js 动画和相机
+content:本课程讲解 WebGL Three.js 的动画和相机，内容包括动画的基本原理，轨迹球控件，飞行控件和翻滚控件等相机的使用。
+classtime:5课时 52分钟
+classlevel:中级
+learnnum:2265人学习
+
+title:Java Web 实战项目基本模块程序开发(二)
+content:本课程讲解的技能点，在实际开发项目中，有着举足轻重的作用。本课程主要简介会员中心模块的业务实现和编码开发，以及万能的 Filter 验证是否登录类的实现！全程从细节点和新手容易犯的常用错误出发，逐步讲解，通俗易懂。
+classtime:4课时 94分钟
+classlevel:中级
+learnnum:2692人学习
+
+title:iOS 设计模式——单例
+content:本课程主要讲解单例模式的基本原理，以及如何编写严格的单例模式，最后再向大家讲解用单例模式优化本地数据存储。
+classtime:3课时 35分钟
+classlevel:高级
+learnnum:3008人学习
+
+title:认知全屏滚动插件 fullPage
+content:该课程通过浏览优秀网页作品，认识全屏滚动网页的优势。着重讲解全屏滚动网页的核心技术fullPage，初步了解它的功能及强大的应用场景。重点学习 fullPage 插件的配置方法。
+classtime:3课时 53分钟
+classlevel:中级
+learnnum:2846人学习
+
+title:关联式容器之 Set/Multiset 类模板（二）
+content:本课程主要讲解 se t和 multiset 的迭代器相关函数和赋值函数、set 和 multiset 的插入和移除、set 和 multiset 的比较运算符等相关知识，用于对 set/multiset 类模板基础知识的补充。
+classtime:3课时 44分钟
+classlevel:中级
+learnnum:2124人学习
+
+title:在 jQuery 中使用 AJAX
+content:jQuery 是当前应用最广泛的 JavaScript 库，它提供了大量 AJAX API，提升了 AJAX 使用的便利性，本课程详细讲解 jQuery AJAX 相关 API 的使用。
+classtime:4课时 92分钟
+classlevel:初级
+learnnum:3139人学习
+
+title:HBase 架构详解
+content:本课程能让大家明白 HBase 的底层原理，让大家知道其存储细节，着重讲解 HBase 运维管理的一些命令。
+classtime:4课时 41分钟
+classlevel:高级
+learnnum:2298人学习
+
+title:Photoshop——路径绘制与编辑
+content:本课程主要讲解路径的绘制与属性，详细介绍路径相关工具的使用（包括钢笔工具、路径面板等）、路径的绘制以及编辑技巧。
+classtime:3课时 54分钟
+classlevel:中级
+learnnum:2591人学习
+
+title:PHP 模拟登录及爬虫实战
+content:本课程使用 PHP 进行模拟登录，为你打开一扇新的大门，从此隔墙取物不是梦，各种数据入库来。一直以来，模拟登录成为爬虫系统抓取入口的门槛，这样的门槛阻止了成千上万程序员的脚步，让我们望眼欲穿空余恨，却始终无法获取网站的信息。
+classtime:5课时 75分钟
+classlevel:中级
+learnnum:2963人学习
+
+title:设计模式之原型模式
+content:本课程以一个电子账单项目所遇到的问题出发，分析问题原因，然后提出通过原型模式来解决问题，并详细讲解示例代码。
+classtime:3课时 30分钟
+classlevel:中级
+learnnum:2302人学习
+
+title:自动化测试原理
+content:本课程主要介绍不同技术类型的自动化测试的实现原理，学习关于不同应用软件形态的自动化测试原理，学习完本课程可以对自动化测试技术有更加全面的认识，以免片面理解自动化测试以致于导致实施过程的方向性错误。
+classtime:4课时 69分钟
+classlevel:中级
+learnnum:2662人学习
+
+title:WebGL Three.js 粒子
+content:本课程讲解 WebGL Three.js 的粒子和粒子系统，内容包括粒子与粒子系统的基础知识，格式化粒子方法和精灵的使用方法。
+classtime:3课时 58分钟
+classlevel:中级
+learnnum:2305人学习
+
+title:序列式容器之 Deque 类模板
+content:模板类 deque 提供了对序列随机访问的功能，可以实现在序列两端进行快速插入和删除操作的功能，并可以在需要时修改自身大小。本课程主要讲解 deque 容器的定义、成员函数及其高级编程等内容。
+classtime:3课时 48分钟
+classlevel:中级
+learnnum:2154人学习
+
+title:Android UiAutomator2 BySelector
+content:Android测试支持库，重新封装了一组搜索查找条件的API为BySelector，增加了一个深度搜索器，极大的补充了搜索条件的灵活性。另外增加了对应的By类用于快速书写搜索条件，增加了代码的简洁性。
+classtime:5课时 65分钟
+classlevel:初级
+learnnum:2128人学习
+
+title:数据的组织和整理——数据预处理（1）
+content:本课程首先补充介绍对字符串、日期时间数据的处理方法，然后介绍数据预处理的意义和常见内容，并重点介绍数据转换的常见手法。
+classtime:4课时 69分钟
+classlevel:初级
+learnnum:2226人学习
+
+title:基于 Parse 的 iOS 实战项目开发之借助 Facebook 帐号登陆 Parse App
+content:本课程讲解如何在 Facebook 上面创建应用程序，并将 Facebook SDK 框架集成到 MyParse App之中。另外，还会实现当用户利用 Facebook 帐号登陆以后，自动将其转换为 MyParse 帐号的功能。
+classtime:4课时 35分钟
+classlevel:中级
+learnnum:2435人学习
+
+title:数据的组织和整理——输入和输出
+content:本课程介绍如何用 R 从各种数据源得到数据，从普通的文本文件到 Excel 文件 和 SPSS，以及从关系数据库（以 MySQL 为例）得到数据。
+classtime:4课时 68分钟
+classlevel:初级
+learnnum:2492人学习
+
+title:基于 Parse 的 iOS 实战项目开发之用户状态的相关操作
+content:本课程主要介绍使用 Parse SDK 框架处理用户的退出，密码重置以及关键信息修改的相关操作方法。
+classtime:5课时 55分钟
+classlevel:中级
+learnnum:2445人学习
+
+title:OpenGL 点光源
+content:本课程学习 OpenGL 点光源的实现，点光源的典型例子是灯泡。不同于方向光，物体表面距离光源越远会有衰减的效果，本课程通过原理讲解和实际编写代码来实现点光源的效果。
+classtime:3课时 37分钟
+classlevel:中级
+learnnum:2218人学习
+
+title:LCD 的基础技术——12864 图形点阵液晶屏的使用
+content:本课程通过对 12864 图形点阵液晶屏的原理介绍和实例讲解，帮助学员了解 12864 的工作原理和特性，并基本掌握其在 Arduino 项目中实际应用方法和应注意事项。
+classtime:3课时 37分钟
+classlevel:中级
+learnnum:2203人学习
+
+title:WPF 绑定
+content:本课程主要介绍 WPF 绑定的基础知识。主要包含什么是绑定，WPF 绑定的基本要素有哪些，WPF 绑定实现的方式以及绑定源的类型、绑定共享等相关知识。
+classtime:3课时 32分钟
+classlevel:中级
+learnnum:2259人学习
+
+title:序列式容器之 List 容器其他重要函数
+content:本课程主要讲解 List 容器的其他重要函数的使用方法，包括：运算符函数、函数 merge() 和函数sort()、函数 renove() 和函数 remove_if()、函数 splice() 和函数 unique() 等。
+classtime:5课时 61分钟
+classlevel:中级
+learnnum:2123人学习
+
+title:名企数据结构面试题之字符串（上）
+content:本课程讲解字符串相关的进阶知识。通过介绍深入理解引用与引用传递、C 语言风格字符串、最后一个单词的长度等等知识，让大家深入理解字符串，从而能够轻松应对名企面试官提出的某些刁钻的问题。
+classtime:5课时 68分钟
+classlevel:中级
+learnnum:2191人学习
+
+title:分布式远程过程调用 DRPC
+content:本课程将会讲解远程过程调用和分布式远程过程调用的概念，并结合实例进行讲解。
+classtime:3课时 43分钟
+classlevel:中级
+learnnum:2218人学习
+
+title:WebGL Three.js 几何体
+content:本课程讲解 WebGL Three.js 各个几何体的使用技术，内容包括二维几何体、球面几何体和多面几何体的绘制。
+classtime:3课时 60分钟
+classlevel:中级
+learnnum:2446人学习
+
+title:iOS 设计模式——代理
+content:本课程首先讲解 iOS 设计模式中的代理模式，之后再讲解代理与协议的区别，最后用抽象基类 NSProxy 实现代理模式。
+classtime:3课时 35分钟
+classlevel:高级
+learnnum:2818人学习
+
+title:Cocos2d-x 引擎源码中的绘制系统
+content:本课程将深入 Cocos2d-x 的绘制函数，讲述在每一帧中，如何通过调度器引起元素发生变化，以及发生变化之后，如何生成元素的绘制命令将元素展现在屏幕上。
+classtime:3课时 87分钟
+classlevel:高级
+learnnum:2265人学习
+
+title:Nginx 的反向代理与负载均衡
+content:本课程主要会讲 Nginx 的反向代理与负载均衡等知识，包括什么是反向代理与负载均衡、Nginx 负载均衡的实现、HTTP Upstream 模块、其他负载均衡的方法等。
+classtime:4课时 78分钟
+classlevel:初级
+learnnum:3220人学习
+
+title:SSH 鲜花礼品网购物功能实现
+content:本课程将在 Struts、Spring、Hibernate 整合后的框架基础上重点讲述购物功能的实现，包含以下重要内容：一是购物车的设计；二是添加鲜花到购物车；三是显示购物车鲜花信息，更新、确认购物信息；四是提交订单。
+classtime:4课时 49分钟
+classlevel:中级
+learnnum:2609人学习
+
+title:MongoDB GridFS 文件系统
+content:本次课将讲解 MongoDB GridFS 文件系统，内容包括分布式文件系统简介、 GridFS 介绍以及GridFS 使用等内容。
+classtime:3课时 38分钟
+classlevel:中级
+learnnum:2239人学习
+
+title:建立对数据的感性认识（2）
+content:本课程讲解统计学中如何把数据特征进行量化，即描述数据特征的各种具体统计量，并深刻认识日常生活中的“统计欺骗”。
+classtime:3课时 52分钟
+classlevel:初级
+learnnum:2183人学习
+
+title:WebGL Three.js 材质
+content:本课程讲解 WebGL Three.js 材质的相关技术，内容包括 MeshBasicMaterial 简单材质，MeshDepthMaterial 深度材质，联合材质和 MeshNormalMaterial 材质的使用方法。
+classtime:5课时 49分钟
+classlevel:中级
+learnnum:2167人学习
+
+title:序列式容器之 List 容器基础成员函数
+content:本课程主要讲解 List 容器最基础的编程内容：判断 List 内容是否为空，元素存取，元素重置，交换两个容器内容，List 序列中元素的插入和删除等。
+classtime:3课时 43分钟
+classlevel:中级
+learnnum:2150人学习
+
+title:ThinkPHP 模型数据验证和填充
+content:本课程讲解 ThinkPHP 框架中模型的数据自动验证和填充知识，通过学习，掌握 ThinkPHP 模型自动验证和填充的实现方式。
+classtime:3课时 22分钟
+classlevel:中级
+learnnum:2516人学习
+
+title:自动化测试概述
+content:本课程主要介绍自动化测试在整个软件测试中的地位、价值、技术要求。学习常用的各类测试工具。通过本课程让大家对自动化测试有一个初步的理解。
+classtime:5课时 75分钟
+classlevel:初级
+learnnum:3032人学习
+
+title:WordPress 主题开发之模板标签与条件标签
+content:本课程介绍模板标签与条件标签的概念和使用，并用一个小开发示例，回顾一下之前课程所学的知识。
+classtime:3课时 41分钟
+classlevel:中级
+learnnum:2234人学习
+
+title:Meteor 添加用户
+content:本课程介绍了如何使用 Meteor 内置的账户功能非常方便的添加用户系统。
+classtime:4课时 45分钟
+classlevel:初级
+learnnum:2262人学习
+
+title:CSS3 实现下拉选择框、单选框和复选框动画特效
+content:本课程讲解，使用 CSS3 完成表单控件中，下拉选择框、单选框、复选框的动画效果，进一步加深 CSS3 中 transform、transition 的使用场景和方法。
+classtime:3课时 76分钟
+classlevel:中级
+learnnum:3897人学习
+
+title:iOS 实战项目开发:团购之商品详情
+content:本节课开始进行商品详情页的开发。即在首页点击商品后，推出商品的详细介绍界面，分为左右两个板块进行商品的详细介绍。
+classtime:3课时 51分钟
+classlevel:中级
+learnnum:2968人学习
+
+title:Android UiAutomator2 UiDevice
+content:Android 测试支持库，扩展了 UiAutomator 框架，在 UiDevice 中增加了几个常用 API，如查找对象。另外 InstrumentationRegistry 极大的扩展了 UiAutomator，运行 UiAutomator 获取到Context，这样很多 Android API 都可以在 UiAutomator 中进行调用。
+classtime:3课时 52分钟
+classlevel:初级
+learnnum:2169人学习
+
+title:Storm 架构基础：实时基础平台架构
+content:本课程将围绕 Storm 讲解实时处理基础平台的架构，从元数据管理、多节点统一配置管理、系统监控以及数据总线等几个方面进行讲解，最后对基于 Storm 的基础平台做一个全局的梳理。
+classtime:5课时 46分钟
+classlevel:中级
+learnnum:2326人学习
+
+title:WebGL Three.js 光源
+content:本课程讲解 WebGL Three.js 光源的相关技术，内容包括影响整个场景的光源，照射所有方向的光源，具有锥形效果的光源和平行光源的使用。
+classtime:5课时 72分钟
+classlevel:中级
+learnnum:2220人学习
+
+title:序列式容器之 Vector 高级编程（二）
+content:本课程主要讲解 vector 容器增加元素，删除元素，交换元素等内容。
+classtime:4课时 38分钟
+classlevel:中级
+learnnum:2092人学习
+
+title:构建轻博客系统之博文标签
+content:本课程介绍如何给文章和用户添加标签功能。
+classtime:4课时 30分钟
+classlevel:初级
+learnnum:2170人学习
+
+title:定位系统
+content:物联网时代，基于位置信息的服务越来越多，这给定位技术带来了新的挑战与机遇。本课程介绍位置信息的概念，重点介绍常见的定位技术，典型的定位系统（卫星定位，蜂窝基站定位，无线室内环境定位，新兴定位系统）以及描述了智能信息设备。
+classtime:3课时 51分钟
+classlevel:初级
+learnnum:2479人学习
+
+title:J2EE 分布式服务的基础（下）
+content:本课程介绍应用了 ZooKeeper 的使用场景，并且用 ZooKeeper 来做分布式服务的注册和发现服务，并且用 ZooKeeper 来做负载均衡。
+classtime:3课时 30分钟
+classlevel:中级
+learnnum:2431人学习
+
+title:建立对数据的感性认识（3）
+content:本课程讲解如何用 R 产生满足各种分布要求的测试数据，学习使用 R 中各种统计函数抓取数据的特征，并初步接触 R 的基础绘图函数和数据特征的可视化。
+classtime:4课时 63分钟
+classlevel:初级
+learnnum:2264人学习
+
+title:Tomcat 启动与停止
+content:本课程将讲解 Tomcat 不同安装形式下的启动与停止的方式，同时为了加深大家的理解，通过批处理脚本分析 Tomcat 的启动过程，然后针对一些常见的启动时报错的问题给大家演示如何定位以及解决问题，最后讲解如何将 Tomcat 添加到系统服务中。
+classtime:3课时 34分钟
+classlevel:初级
+learnnum:2524人学习
+
+title:神奇的回文
+content:本课程介绍回文相关的面试题，讲解回文字符串、回文数字、最长回文子串等问题，并总结解题规律，让大家掌握回文相关面试题的常用解法。
+classtime:4课时 43分钟
+classlevel:中级
+learnnum:2551人学习
+
+title:J2EE 分布式服务的基础（上）
+content:想要真正的理解分布式服务框架还是需要从 Java 源生的服务框架中去理解。本课程主要讲解了 RPC 的基础知识和使用 HTTP 通信协议开发分布式服务框架的特点，最后使用 HTTP 开发一个简单的分布式服务框架。
+classtime:3课时 32分钟
+classlevel:中级
+learnnum:2715人学习
+
+title:初识 OpenStack
+content:介绍 OpenStack 云计算平台的基础知识、发展简史、整体架构，以及 OpenStack 的开源社区,使学员了解 OpenStack 的相关背景和基本功能。
+classtime:3课时 35分钟
+classlevel:中级
+learnnum:2990人学习
+
+title:AndroidJUnitRunner
+content:编写完测试脚本，最终是要运行的，熟练掌握运行命令是学习测试框架的前提。掌握运行器在部署和开发云测试与运行框架极其重要，尤其在云测试中的使用。
+classtime:4课时 53分钟
+classlevel:初级
+learnnum:2189人学习
+
+title:Android 开发实战：极光推送集成
+content:本课程主要介绍在项目中集成第三方推送功能。以极光推送为例子，介绍在 Android 项目中集成极光推送的具体步骤和相关注意事项。同时将演示在服务端调用极光推送 API 发送推送消息的具体步骤。
+classtime:4课时 57分钟
+classlevel:中级
+learnnum:4649人学习
+
+title:FX Maker 概述
+content:本课程主要介绍 FX Maker 插件的基本情况，通过对该插件的讲解和操作演示，完成对 FX Maker插件的基本了解。
+classtime:3课时 37分钟
+classlevel:初级
+learnnum:2400人学习
+
+title:C++ 函数（２）
+content:本课程系统地讲解 C++ 中函数的数组形参、处理命令行选项、可变形参、返回数组指针和函数重载等。
+classtime:3课时 40分钟
+classlevel:初级
+learnnum:2517人学习
+
+title:SpringMVC 快速入门
+content:本课程是 SpringMVC 入门实战教程系列课程中的第一课，主要讲解 MVC 架构、SpringMVC 架构体系、DispatcherServlet 类剖析，最后还会编写一个示例程序。
+classtime:4课时 46分钟
+classlevel:中级
+learnnum:3531人学习
+
+title:WebGL Three.js 基本组件
+content:本课程讲解 WebGL Three.js 的基本组件，包括 WebGL Three.js 场景的基本功能，雾化效果，网格对象的方法和相机的使用方法。
+classtime:3课时 55分钟
+classlevel:中级
+learnnum:2228人学习
+
+title:LBS 基础地图相关功能实现
+content:本课程在地图与定位功能的基础上，深入介绍地图相关知识。首先介绍使用 LBS 进行兴趣点搜索的原因，接着添加搜索相关功能页面，并通过 iOS 原生方法 MKLocalSearch 查询附近兴趣点，实现用户位置与兴趣点之间的线路导航。
+classtime:4课时 81分钟
+classlevel:初级
+learnnum:2559人学习
+
+title:基于 Parse 的 iOS 实战项目开发之实现左右滑动导航
+content:本课程主要介绍如何利用第三方库 MMDrawerController 实现屏幕左右两侧的抽屉式导航的效果。
+classtime:5课时 47分钟
+classlevel:中级
+learnnum:2646人学习
+
+title:Photoshop——混合模式详解3
+content:本课程为混合模式部分的第3课，首先系统讲解叠加组的最后3个混合模式：线性光、点光和实色混合；然后讲解差异组的差值、排除、减去和划分；最后讲解颜色组的色相、饱和度、颜色与明度的效果及原理与计算公式。同时，对混合模式的特性进行总结，帮助学员了解运用技巧。
+classtime:4课时 66分钟
+classlevel:中级
+learnnum:2669人学习
+
+title:SSH 鲜花礼品网用户注册、登录、注销及管理
+content:本课程将在 Struts、Spring、Hibernate 整合后的框架基础上重点讲述以下几个功能：一是基于一对一共享主键映射，配合 Struts 标签添加用户到数据库，完成用户注册功能；二是基于管理员和用户两种不同身份登录到不同的操作界面，完成用户登录功能；三是用户注销功能；四是用户管理功能，包括用户密码修改、个人信息修改等功能。
+classtime:3课时 59分钟
+classlevel:中级
+learnnum:2469人学习
+
+title:序列式容器之 Vector 高级编程（一）
+content:本课程主要讲解 Vector 容器相关的元素访问方法，迭代器相关函数，元素查找和搜索，字符串处理，元素排序等内容。
+classtime:4课时 28分钟
+classlevel:中级
+learnnum:2157人学习
+
+title:Android Testing Support Library
+content:谷歌将各种测试框架整合为一个测试支持库，将 Instrumentation 框架将支持运行 UiAutomator，这样两个框架最终合体，华丽的升级，让 Instrumentation支持跨应用，让 UiAutomator 支持调用 Context。
+classtime:4课时 43分钟
+classlevel:初级
+learnnum:2173人学习
+
+title:Microsoft SQL Server 数据库的聚合操作优化技巧
+content:通过本课程的学习，掌握 T-SQL 语句中的聚合操作运算符的使用场景和注意事项，学会合理的利用聚合运算。
+classtime:3课时 41分钟
+classlevel:中级
+learnnum:2405人学习
+
+title:微信远控：让微信控制电脑
+content:本课程讲解使用微信的邮件助手给一个特定的邮箱发送命令，电脑上的 Python 程序通过读取命令来进行相应的操作。
+classtime:5课时 44分钟
+classlevel:中级
+learnnum:4957人学习
+
+title:WebGL 绘制立方体
+content:本课程讲解通过传统方法和采用顶点索引两种方法绘制立方体，以及如何为立方体的各面上色。
+classtime:3课时 54分钟
+classlevel:中级
+learnnum:2274人学习
+
+title:设计模式之备忘录模式
+content:本课程先讨论一个游戏进度状态保存问题，通过思考分析，然后提出备忘录模式进行状态保存的原理，并详细讲解示例代码。
+classtime:3课时 27分钟
+classlevel:中级
+learnnum:2280人学习
+
+title:HTTP 的请求方法
+content:本课程将深入学习 HTTP 请求报文中的请求方法，其中将对最重要同时也是最常见的方法 POST 和 GET 进行详细讲解，包括两者的区别，以及 GET 和 HEAD 的区别。
+classtime:3课时 38分钟
+classlevel:初级
+learnnum:2730人学习
+
+title:Android Design Support Library 兼容库使用详解
+content:本课程主要讲解 Android Design Support Library 的使用，带领大家搭建好环境。针对兼容库提供的8个控件逐个进行使用讲解，让大家更好的了解 Google 为我们提供的这个强大的符合 Material Design 设计的控件兼容库
+classtime:4课时 59分钟
+classlevel:中级
+learnnum:3447人学习
+
+title:YARN 下的 MapReduce 开发、运行与测试
+content:本课程主要介绍如何搭建 MapReduce 的开发环境，以及如何在 YARN 资源管理框架下运行 Hadoop 自带的 MapReduce 样例程序，如何进行基准测试等。
+classtime:3课时 49分钟
+classlevel:中级
+learnnum:2060人学习
+
+title:Windows 10应用开发之自适应视图
+content:本课程主要介绍如何设计可以自适应不同设备环境的界面视图。正因为通用应用程序可以同时运行在不同的设备上，在某些需要的情况下，会考虑为不同的设备使用不同的用户界面。比较简单的做法是运用自适应触发器，根据窗口的宽度或高度的变化来应用不同的用户界面；如果不同的设备的用户界面设计差异较大，还可以为不同设备套用不同的界面，应用程序在运行阶段会自动进行选择。
+classtime:3课时 22分钟
+classlevel:初级
+learnnum:2282人学习
+
+title:WebGL Three.js 纹理
+content:本课程讲解 WebGL Three.js 纹理，内容包括使用凹凸贴图和法向贴图创建皱纹，用光照贴图创建阴影，用环境贴图创建反光效果以及高光贴图等。
+classtime:5课时 42分钟
+classlevel:中级
+learnnum:2085人学习
+
+title:C++ 函数（３）
+content:本课程详细讲解 C++ 语言中和函数的默认实参、内联函数和 constexpr 函数等，以及在程序调试中常用的一些功能、重载函数的匹配和函数指针。
+classtime:3课时 31分钟
+classlevel:初级
+learnnum:2109人学习
+
+title:数据采集模块 Falcon-Agent 源码解读
+content:本课程针对 Open-Falcon 的 Agent 模块，讲解其功能设计出发点、代码结构和执行流程，着重介绍数据采集逻辑。
+classtime:5课时 81分钟
+classlevel:中级
+learnnum:2086人学习
+
+title:Axure 团队项目协作和 Axure 使用技巧
+content:本课程讲解如何使用 Axure 团队项目允许多个用户同时编辑同一个项目文件，团队中的成员通过编辑团队项目的本地副本并使用签入和签出进行管理更新。还会分享在绘制原型过程中的一些 Axure 的使用技巧，以便于我们快速的设计 Axure 原型。
+classtime:3课时 50分钟
+classlevel:高级
+learnnum:2060人学习
+
+title:SpringMVC 常用注解类
+content:本课程是 SpringMVC 入门实战教程系列课程中的第二课，主要讲解 SpringMVC 常用注解类（RequestMapping、Controller、Service、Component 等），主要涉及到 spring-web 和 spring-context 这两个 jar 包，最后还会编写一个示例程序。
+classtime:4课时 50分钟
+classlevel:中级
+learnnum:2178人学习
+
+title:kafka 消息处理过程与集群维护
+content:本课程首先从磁盘随机和顺序读讲解 kafka 消息写入、删除的原理，然后会重点讲解 kafka 消息的检索（kafka consumer 定点消费原理），在之后会讲解 kafka 集群的维护，主要包括 kafka 集群的分区 leader 平衡，kafka 集群日志文件 broker 迁移等，最后会通过 Kafka Offset Monitor 和 Kafka Manager 两个 kafka 集群的监控工具对 kafka 集群进行监控。
+classtime:4课时 84分钟
+classlevel:高级
+learnnum:2104人学习
+
+title:FX Maker 特效的导出
+content:本课程主要介绍 FX Maker 特效的导出，通过对该插件里特效导出的讲解和操作演示，完成对 FX Maker 插件特效导出的了解和掌握。
+classtime:3课时 40分钟
+classlevel:中级
+learnnum:2100人学习
+
+title:对象识别技术原理
+content:本课程主要讲解基于界面的自动化测试的核心技术：对象识别的底层原理，学习完本课程可以对各类自动化测试工具运用得游刃有余而不会拘泥于测试工具本身，这是成为自动化测试大牛的必修课。
+classtime:5课时 88分钟
+classlevel:高级
+learnnum:2105人学习
+
+title:蜻蜓FM刷用户活跃度原理分析
+content:本课程介绍一般流氓软件的常用手段，内容包括启动多个服务、服务永驻、不定时自动启动服务、使用友盟统计应用数据、模拟用户活跃
+classtime:5课时 38分钟
+classlevel:中级
+learnnum:2976人学习
+
+title:第一个 Activiti 程序
+content:本课程通过 HelloWorld 程序开发，介绍 Activiti 的开发流程、H2 内存数据库的使用，讲解 MySQL 的安装、流程引擎、流程实例、流程任务，最后通过对该案例的分析，让学员在整体上把握开发流程，学会如何开发 Activiti 程序。
+classtime:4课时 49分钟
+classlevel:中级
+learnnum:2186人学习
+
+title:Python 操作数据库——查询优化实战
+content:本课程会使用一个网上可以免费下载的 IP 库（大致包含40万条 IP 号段的记录），首先会使用Python 和 torndb 做 ETL（抽取-转化-加载）并创建一个 ip 库的表。之后会逐项的的对这张表进行查询优化，通过改变查询语句，创建索引，更改数据类型，增加缓存命中率等方法来提升查询效率。最后会通过在数据库端和 Python 客户端两端同时进行优化进一步提升性能。最终实现将一个数秒的查询优化成数毫秒的查询，以提升上千倍的查询效率的方式展现数据库优化的魅力。
+classtime:3课时 32分钟
+classlevel:中级
+learnnum:2182人学习
+
+title:基于 Parse 的 iOS 实战项目开发之发送和接收消息推送
+content:本课程主要讲解如何配置、下载和在 Xcode 中安装 Apple 的开发认证证书。通过 Parse 的云端Web 平台或移动设备向用户的 App 推送消息，以及如何在移动设备上接收推送消息。
+classtime:5课时 65分钟
+classlevel:中级
+learnnum:2194人学习
+
+title:构造方法与析构方法
+content:本课程讲解了构造方法与析构方法，从基本语法开始并结合实例代码，通过实例详细讲解了构造方法与析构方法的使用方法。
+classtime:4课时 29分钟
+classlevel:中级
+learnnum:2094人学习
+
+title:Phaser.js 中的显示对象（三）
+content:本课程是 Phaser.js 中显示对象课程的第三部分，将讲解 Phaser 中的粒子系统以及瓦片地图的创建和使用方法。
+classtime:3课时 50分钟
+classlevel:初级
+learnnum:2202人学习
+
+title:非修改性序列算法之 For_each 算法
+content:本课程主要讲解非修改性序列算法中 For_each 算法的定义形式及其使用方法。
+classtime:4课时 24分钟
+classlevel:初级
+learnnum:2183人学习
+
+title:Meteor 会话与响应式
+content:本课程介绍了 Meteor 的会话（Session）和响应式（Reactivity）。Session 提供了一个全局的响应式数据存储。Reactivity 使得 Meteor 能够随时检测到数据的更改，并将它无缝地展现到用户界面上。
+classtime:3课时 33分钟
+classlevel:初级
+learnnum:2210人学习
+
+title:初级篇，开始使用 ASP.NET Identity
+content:本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。相信通过本课程，你能对 ASP.NET Identity 有了基本的概念，为后续课程做好准备。
+classtime:4课时 53分钟
+classlevel:中级
+learnnum:2275人学习
+
+title:Ruby 中的进程
+content:本课程讲解 Ruby 中的进程环境、进程控制和信号处理，并配以示例加以理解。
+classtime:3课时 26分钟
+classlevel:高级
+learnnum:2072人学习
+
+title:Android UiAutomator UiSelector API 详细介绍
+content:本课学习 UiAutomator UiSelector， UI元素的搜索向来是UI自动化测试的重中之重，搜索定位到界面的UI组件元素，然后操作控制它。本课学习各种搜索组件的方法，理解并掌握每种搜索方式，为后续能够得心应手地编写测试脚本奠定扎实的基础。
+classtime:9课时 67分钟
+classlevel:初级
+learnnum:2311人学习
+
+title:AJAX 文件上传
+content:本课程讲解两种无刷新页面文件上传实现方式，一种是利用 XMLHttpRequest Level 2 新增的 upload 对象，另一种是利用 iframe 伪 AJAX 方式。
+classtime:3课时 34分钟
+classlevel:初级
+learnnum:2799人学习
+
+title:增强现实 超凡体验 Qualcomm Vuforia SDK 在线培训
+content:本次培训主要对Qualcomm Vuforia 移动视觉平台和开发套件的功能特点作深度讲解，同时也包括相关配套工具，最新的云端识别服务和资费方案概况。除此之外培训中还将详细介绍最新发布的Vuforia 5 新功能——Mixed Reality 和其展现出的从手机平板到智能眼镜的 VR/AR 超凡体验的可能性。 从传统的手机、平板到新生代智能数码眼镜设备，Vuforia 不仅可用于创建增强现实应用，更可以支持整合了AR增强现实和 VR 虚拟现实的混合现实应用程序。至今，Vuforia 已被全球多家顶级品牌所采用，在全世界拥有超过17万注册开发者，并开发了2万多个应用程序，下载安装2亿逾次。
+classtime:2课时 52分钟
+classlevel:初级
+learnnum:2628人学习
+
+title:SSH 鲜花礼品网安全机制及实现
+content:本课程将在 Struts、Spring、Hibernate 整合后的框架基础上，给系统添加安全防护功能，主要包括下面内容：一是将指定账号挂失和解除挂失；二是利用拦截器拦截已经挂失的账号；三是拦截未经登录的访问，避免非法访问和修改数据等。
+classtime:3课时 47分钟
+classlevel:中级
+learnnum:2190人学习
+
+title:特殊容器用法
+content:本课程主要讲述位段类模板、堆栈类模板、队列类模板和优先队列模板的使用方法。
+classtime:4课时 69分钟
+classlevel:中级
+learnnum:2144人学习
+
+title:HBase Java 编程
+content:本课程能让大家使用 HBase Java API 进行 HBase 表的 CRUD，着重对过滤器和范围查询进行重点讲解。
+classtime:3课时 32分钟
+classlevel:初级
+learnnum:2180人学习
+
+title:Java中并发工具包(下）
+content:本课程主要介绍并发工具包中各种工具的编程模型及使用，其中包括锁、并发集合以及执行器。
+classtime:4课时 31分钟
+classlevel:中级
+learnnum:2252人学习
+
+title:iOS 设计模式——生成器
+content:本课程主要讲解设计模式中的生成器模式，并通过简单的实例讲解如何使用生成器模式。
+classtime:3课时 37分钟
+classlevel:高级
+learnnum:2782人学习
+
+title:如何通过 Nrpe 进行监控
+content:本课程主要讲解 Nrpe 在监控端与被监控的部署配置，如何通过 Nrpe 实现对 Linux 服务器进行监控，学习后可以掌握 Nrpe 监控 Linux 服务的方法。
+classtime:3课时 29分钟
+classlevel:中级
+learnnum:2092人学习
+
+title:EIGRP 路由协议
+content:本课程主要讲解 EIGRP 路由协议的基本内容和基本配置，使学生对 EIGRP 的理论知识进行初步了解，为下一步的学习打下基础。
+classtime:4课时 66分钟
+classlevel:高级
+learnnum:2113人学习
+
+title:Axure 统计图表设计
+content:本课程讲解 Axure 中设计统计图表，包括使用 Excel 设计统计图表方式和 HighChart 设计图表方式，利用他们可以设计出饼状图、柱状图、折线图等等不同形状的图表，介绍每种形状图表应用到不同的场合以及如何设计出不同形状的图表。
+classtime:4课时 74分钟
+classlevel:高级
+learnnum:2283人学习
+
+title:线性表的存储与操作(二)
+content:本课程将介绍单向链表的插入算法、删除算法、以及单向循环链表的算法以及双向循环链表的算法。
+classtime:3课时 29分钟
+classlevel:初级
+learnnum:2114人学习
+
+title:SSH 鲜花礼品网花品管理功能
+content:本课程将在 Struts、Spring、Hibernate 整合后的框架基础上，重点讲述如何以管理员身份对花品进行管理，包含以下重要内容：一是增加花品；二是修改已有花品；三是删除花品。以上功能的实现需要综合运用 SSH 框架技术，比如文件上传、Struts标签库、POJO 相关操作、Spring 配置等。
+classtime:3课时 56分钟
+classlevel:中级
+learnnum:2229人学习
+
+title:FileMaker 14 高级教学（一）数据和数据库
+content:本章作为本教程的开篇，将从数据库的建模入手，讲解数据库中表的关系以及怎样从一个抽象的商业模式中提取有效的数据库，并最终将其变成 FileMaker 的解决方案。同时我们将从基本的字段入手，学习怎样新建字段，容器，入口以及设置相关联的选项。
+classtime:5课时 37分钟
+classlevel:初级
+learnnum:2277人学习
+
+title:微信公众平台开发实战：天气预报查询
+content:本课程主要学习在微信公众平台中实现天气预报查询的功能，包括天气预报查询接口的使用、微信公众平台自定义回复、php截取字符串函数的使用，并结合这些知识来进行完整功能的开发。
+classtime:3课时 39分钟
+classlevel:中级
+learnnum:2763人学习
+
+title:跨域 AJAX 的实现
+content:基于 JavaScript 的同源策略，默认情况下不允许向其它域发起 AJAX 请求，但在开发过程，经常会有跨域的需求。本课程详细讲解各种常见跨域 AJAX 的实现方案。
+classtime:4课时 52分钟
+classlevel:初级
+learnnum:2486人学习
+
+title:使用 Bmob 搭建我们的第一个后端云 APP
+content:本课程将会帮助我们学习使用 Bmob 搭建我们的一个基于后端云 APP 的一个基本框架以及 Bmob 后台的基本使用。
+classtime:3课时 27分钟
+classlevel:中级
+learnnum:2555人学习
+
+title:Java Web 开发环境搭建与数据库设计
+content:本课程主要讲解如何搭建 Java Web 开发环境，以及无限级分销系统数据库设计与 MVC 设计模式和面向接口编程的讲解。通过本课程的学习，学员能掌握 Web 开发环境的搭建与配置，系统数据库的设计以及 MVC 设计模式开发和面向接口编程的理解与使用。
+classtime:4课时 90分钟
+classlevel:中级
+learnnum:2522人学习
+
+title:Photoshop——形状与布尔运算
+content:本课程主要讲解 Photoshop 的布尔运算原理、特性以及布尔运算路径操作技巧，并通过案例演示如何运用布尔运算绘制剪影图标和彩色图标等。
+classtime:3课时 67分钟
+classlevel:中级
+learnnum:2332人学习
+
+title:面象对象入门
+content:本课首先讲解什么是类、什么是对象、以及类与对象之间的关系、并从如何声明一个类开始逐步过渡到类中的成员属性与成员方法的定义，最后实例化一个对象，并通过对象访问成员属性和成员方法。
+classtime:3课时 43分钟
+classlevel:中级
+learnnum:2486人学习
+
+title:iOS 设计模式——备忘录
+content:本课程主要讲解设计模式中的备忘录模式，并通过简单的实例讲解如何使用备忘录模式，最后，通过抽象接口的方式来扩展备忘录模式的使用。
+classtime:4课时 38分钟
+classlevel:高级
+learnnum:2310人学习
+
+title:名企数据结构面试题之字符串（下）
+content:本课程介绍字符串相关面试题，讲解同分异构体、反转单词顺序、模式匹配等等问题，并总结解题规律，让大家掌握字符串相关面试题的常用解法。
+classtime:5课时 53分钟
+classlevel:中级
+learnnum:2166人学习
+
+title:设计模式之最后总结
+content:本课程总结了本系列课程中讲到的23个设计模式，并梳理了各自的关键点。也讲了涉及面向对象设计的六大原则。
+classtime:3课时 54分钟
+classlevel:中级
+learnnum:2456人学习
+
+title:FX Maker 的特效类型
+content:本课程主要介绍 FX Maker 的特效类型，通过对该插件里的特效类型的讲解和操作演示，完成对FX Maker 插件的特效类型的基本了解。
+classtime:3课时 44分钟
+classlevel:中级
+learnnum:2306人学习
+
+title:关联式容器之 Map/Multimap 的高级编程
+content:本课程主要讲述 Map/Multimap 的插入、删除、交换、统计元素个数、查找元素、元素的随机访问、元素的大小比较以及如何获取内存分配器等内容。
+classtime:6课时 75分钟
+classlevel:中级
+learnnum:2101人学习
+
+title:OpenSceneGraph 的安装与部署
+content:本课程力求帮助学员从原理上理解 OSG 源代码的编译方法，掌握 CMake 工具使用，源代码的编译，创建一个简单工程，以及最常用的工具使用。
+classtime:4课时 20分钟
+classlevel:初级
+learnnum:2152人学习
+
+title:冗余网络的设计
+content:本课程主要介绍冗余网络的设计，主要包括链路聚合技术（ EtherChannel）、HSRP 协议、VRRP 协议的讲解和案例演示。
+classtime:3课时 41分钟
+classlevel:初级
+learnnum:2137人学习
+
+title:用 SpringMVC 实现 CRM 客户关系管理系统整体介绍
+content:本课程主要讲解 SpringMVC 框架实现 CRM 客户关系管理系统的需求分析、系统数据库设计以及项目架构搭建等，让学员充分了解整体项目的开发流程与分析。
+classtime:3课时 35分钟
+classlevel:中级
+learnnum:2739人学习
+
+title:名企数据结构面试题之链表（上）
+content:本课程介绍链表相关面试题，讲解链表的最大元素、逆序打印链表、链表反转等问题，并总结解题规律，让大家初步掌握链表相关面试题的常用解法。
+classtime:4课时 66分钟
+classlevel:中级
+learnnum:2264人学习
+
+title:物联网技术导论（五）互联网概述
+content:网络是物联网最重要的基础设施之一。物联网是下一代互联网吗？为了解决这个问题，首先需要认识互联网。本课程讲述物联网基本概念和体系结构。
+classtime:3课时 46分钟
+classlevel:初级
+learnnum:2296人学习
+
+title:设计模式之访问者模式
+content:本课程以一个雇员管理系统增加数据处理功能的需求出发，分析需求和思考设计方案，然后提出通过访问者模式来解决问题，并详细讲解示例代码。
+classtime:3课时 33分钟
+classlevel:中级
+learnnum:2200人学习
+
+title:WebGL Three.js 动画和相机
+content:本课程讲解 WebGL Three.js 的动画和相机，内容包括动画的基本原理，轨迹球控件，飞行控件和翻滚控件等相机的使用。
+classtime:5课时 52分钟
+classlevel:中级
+learnnum:2265人学习
+
+title:Java Web 实战项目基本模块程序开发(二)
+content:本课程讲解的技能点，在实际开发项目中，有着举足轻重的作用。本课程主要简介会员中心模块的业务实现和编码开发，以及万能的 Filter 验证是否登录类的实现！全程从细节点和新手容易犯的常用错误出发，逐步讲解，通俗易懂。
+classtime:4课时 94分钟
+classlevel:中级
+learnnum:2692人学习
+
+title:iOS 设计模式——单例
+content:本课程主要讲解单例模式的基本原理，以及如何编写严格的单例模式，最后再向大家讲解用单例模式优化本地数据存储。
+classtime:3课时 35分钟
+classlevel:高级
+learnnum:3008人学习
+
+title:认知全屏滚动插件 fullPage
+content:该课程通过浏览优秀网页作品，认识全屏滚动网页的优势。着重讲解全屏滚动网页的核心技术fullPage，初步了解它的功能及强大的应用场景。重点学习 fullPage 插件的配置方法。
+classtime:3课时 53分钟
+classlevel:中级
+learnnum:2846人学习
+
+title:关联式容器之 Set/Multiset 类模板（二）
+content:本课程主要讲解 se t和 multiset 的迭代器相关函数和赋值函数、set 和 multiset 的插入和移除、set 和 multiset 的比较运算符等相关知识，用于对 set/multiset 类模板基础知识的补充。
+classtime:3课时 44分钟
+classlevel:中级
+learnnum:2124人学习
+
+title:在 jQuery 中使用 AJAX
+content:jQuery 是当前应用最广泛的 JavaScript 库，它提供了大量 AJAX API，提升了 AJAX 使用的便利性，本课程详细讲解 jQuery AJAX 相关 API 的使用。
+classtime:4课时 92分钟
+classlevel:初级
+learnnum:3139人学习
+
+title:HBase 架构详解
+content:本课程能让大家明白 HBase 的底层原理，让大家知道其存储细节，着重讲解 HBase 运维管理的一些命令。
+classtime:4课时 41分钟
+classlevel:高级
+learnnum:2298人学习
+
+title:Photoshop——路径绘制与编辑
+content:本课程主要讲解路径的绘制与属性，详细介绍路径相关工具的使用（包括钢笔工具、路径面板等）、路径的绘制以及编辑技巧。
+classtime:3课时 54分钟
+classlevel:中级
+learnnum:2591人学习
+
+title:PHP 模拟登录及爬虫实战
+content:本课程使用 PHP 进行模拟登录，为你打开一扇新的大门，从此隔墙取物不是梦，各种数据入库来。一直以来，模拟登录成为爬虫系统抓取入口的门槛，这样的门槛阻止了成千上万程序员的脚步，让我们望眼欲穿空余恨，却始终无法获取网站的信息。
+classtime:5课时 75分钟
+classlevel:中级
+learnnum:2963人学习
+
+title:设计模式之原型模式
+content:本课程以一个电子账单项目所遇到的问题出发，分析问题原因，然后提出通过原型模式来解决问题，并详细讲解示例代码。
+classtime:3课时 30分钟
+classlevel:中级
+learnnum:2302人学习
+
+title:自动化测试原理
+content:本课程主要介绍不同技术类型的自动化测试的实现原理，学习关于不同应用软件形态的自动化测试原理，学习完本课程可以对自动化测试技术有更加全面的认识，以免片面理解自动化测试以致于导致实施过程的方向性错误。
+classtime:4课时 69分钟
+classlevel:中级
+learnnum:2662人学习
+
+title:WebGL Three.js 粒子
+content:本课程讲解 WebGL Three.js 的粒子和粒子系统，内容包括粒子与粒子系统的基础知识，格式化粒子方法和精灵的使用方法。
+classtime:3课时 58分钟
+classlevel:中级
+learnnum:2305人学习
+
+title:序列式容器之 Deque 类模板
+content:模板类 deque 提供了对序列随机访问的功能，可以实现在序列两端进行快速插入和删除操作的功能，并可以在需要时修改自身大小。本课程主要讲解 deque 容器的定义、成员函数及其高级编程等内容。
+classtime:3课时 48分钟
+classlevel:中级
+learnnum:2154人学习
+
+title:Android UiAutomator2 BySelector
+content:Android测试支持库，重新封装了一组搜索查找条件的API为BySelector，增加了一个深度搜索器，极大的补充了搜索条件的灵活性。另外增加了对应的By类用于快速书写搜索条件，增加了代码的简洁性。
+classtime:5课时 65分钟
+classlevel:初级
+learnnum:2128人学习
+
+title:数据的组织和整理——数据预处理（1）
+content:本课程首先补充介绍对字符串、日期时间数据的处理方法，然后介绍数据预处理的意义和常见内容，并重点介绍数据转换的常见手法。
+classtime:4课时 69分钟
+classlevel:初级
+learnnum:2226人学习
+
+title:基于 Parse 的 iOS 实战项目开发之借助 Facebook 帐号登陆 Parse App
+content:本课程讲解如何在 Facebook 上面创建应用程序，并将 Facebook SDK 框架集成到 MyParse App之中。另外，还会实现当用户利用 Facebook 帐号登陆以后，自动将其转换为 MyParse 帐号的功能。
+classtime:4课时 35分钟
+classlevel:中级
+learnnum:2435人学习
+
+title:数据的组织和整理——输入和输出
+content:本课程介绍如何用 R 从各种数据源得到数据，从普通的文本文件到 Excel 文件 和 SPSS，以及从关系数据库（以 MySQL 为例）得到数据。
+classtime:4课时 68分钟
+classlevel:初级
+learnnum:2492人学习
+
+title:基于 Parse 的 iOS 实战项目开发之用户状态的相关操作
+content:本课程主要介绍使用 Parse SDK 框架处理用户的退出，密码重置以及关键信息修改的相关操作方法。
+classtime:5课时 55分钟
+classlevel:中级
+learnnum:2445人学习
+
+title:OpenGL 点光源
+content:本课程学习 OpenGL 点光源的实现，点光源的典型例子是灯泡。不同于方向光，物体表面距离光源越远会有衰减的效果，本课程通过原理讲解和实际编写代码来实现点光源的效果。
+classtime:3课时 37分钟
+classlevel:中级
+learnnum:2218人学习
+
+title:LCD 的基础技术——12864 图形点阵液晶屏的使用
+content:本课程通过对 12864 图形点阵液晶屏的原理介绍和实例讲解，帮助学员了解 12864 的工作原理和特性，并基本掌握其在 Arduino 项目中实际应用方法和应注意事项。
+classtime:3课时 37分钟
+classlevel:中级
+learnnum:2203人学习
+
+title:WPF 绑定
+content:本课程主要介绍 WPF 绑定的基础知识。主要包含什么是绑定，WPF 绑定的基本要素有哪些，WPF 绑定实现的方式以及绑定源的类型、绑定共享等相关知识。
+classtime:3课时 32分钟
+classlevel:中级
+learnnum:2259人学习
+
+title:序列式容器之 List 容器其他重要函数
+content:本课程主要讲解 List 容器的其他重要函数的使用方法，包括：运算符函数、函数 merge() 和函数sort()、函数 renove() 和函数 remove_if()、函数 splice() 和函数 unique() 等。
+classtime:5课时 61分钟
+classlevel:中级
+learnnum:2123人学习
+
+title:名企数据结构面试题之字符串（上）
+content:本课程讲解字符串相关的进阶知识。通过介绍深入理解引用与引用传递、C 语言风格字符串、最后一个单词的长度等等知识，让大家深入理解字符串，从而能够轻松应对名企面试官提出的某些刁钻的问题。
+classtime:5课时 68分钟
+classlevel:中级
+learnnum:2191人学习
+
+title:分布式远程过程调用 DRPC
+content:本课程将会讲解远程过程调用和分布式远程过程调用的概念，并结合实例进行讲解。
+classtime:3课时 43分钟
+classlevel:中级
+learnnum:2218人学习
+
+title:WebGL Three.js 几何体
+content:本课程讲解 WebGL Three.js 各个几何体的使用技术，内容包括二维几何体、球面几何体和多面几何体的绘制。
+classtime:3课时 60分钟
+classlevel:中级
+learnnum:2446人学习
+
+title:iOS 设计模式——代理
+content:本课程首先讲解 iOS 设计模式中的代理模式，之后再讲解代理与协议的区别，最后用抽象基类 NSProxy 实现代理模式。
+classtime:3课时 35分钟
+classlevel:高级
+learnnum:2818人学习
+
+title:Cocos2d-x 引擎源码中的绘制系统
+content:本课程将深入 Cocos2d-x 的绘制函数，讲述在每一帧中，如何通过调度器引起元素发生变化，以及发生变化之后，如何生成元素的绘制命令将元素展现在屏幕上。
+classtime:3课时 87分钟
+classlevel:高级
+learnnum:2265人学习
+
+title:Nginx 的反向代理与负载均衡
+content:本课程主要会讲 Nginx 的反向代理与负载均衡等知识，包括什么是反向代理与负载均衡、Nginx 负载均衡的实现、HTTP Upstream 模块、其他负载均衡的方法等。
+classtime:4课时 78分钟
+classlevel:初级
+learnnum:3220人学习
+
+title:SSH 鲜花礼品网购物功能实现
+content:本课程将在 Struts、Spring、Hibernate 整合后的框架基础上重点讲述购物功能的实现，包含以下重要内容：一是购物车的设计；二是添加鲜花到购物车；三是显示购物车鲜花信息，更新、确认购物信息；四是提交订单。
+classtime:4课时 49分钟
+classlevel:中级
+learnnum:2609人学习
+
+title:MongoDB GridFS 文件系统
+content:本次课将讲解 MongoDB GridFS 文件系统，内容包括分布式文件系统简介、 GridFS 介绍以及GridFS 使用等内容。
+classtime:3课时 38分钟
+classlevel:中级
+learnnum:2239人学习
+
+title:建立对数据的感性认识（2）
+content:本课程讲解统计学中如何把数据特征进行量化，即描述数据特征的各种具体统计量，并深刻认识日常生活中的“统计欺骗”。
+classtime:3课时 52分钟
+classlevel:初级
+learnnum:2183人学习
+
+title:WebGL Three.js 材质
+content:本课程讲解 WebGL Three.js 材质的相关技术，内容包括 MeshBasicMaterial 简单材质，MeshDepthMaterial 深度材质，联合材质和 MeshNormalMaterial 材质的使用方法。
+classtime:5课时 49分钟
+classlevel:中级
+learnnum:2167人学习
+
+title:序列式容器之 List 容器基础成员函数
+content:本课程主要讲解 List 容器最基础的编程内容：判断 List 内容是否为空，元素存取，元素重置，交换两个容器内容，List 序列中元素的插入和删除等。
+classtime:3课时 43分钟
+classlevel:中级
+learnnum:2150人学习
+
+title:ThinkPHP 模型数据验证和填充
+content:本课程讲解 ThinkPHP 框架中模型的数据自动验证和填充知识，通过学习，掌握 ThinkPHP 模型自动验证和填充的实现方式。
+classtime:3课时 22分钟
+classlevel:中级
+learnnum:2516人学习
+
+title:自动化测试概述
+content:本课程主要介绍自动化测试在整个软件测试中的地位、价值、技术要求。学习常用的各类测试工具。通过本课程让大家对自动化测试有一个初步的理解。
+classtime:5课时 75分钟
+classlevel:初级
+learnnum:3032人学习
+
+title:WordPress 主题开发之模板标签与条件标签
+content:本课程介绍模板标签与条件标签的概念和使用，并用一个小开发示例，回顾一下之前课程所学的知识。
+classtime:3课时 41分钟
+classlevel:中级
+learnnum:2234人学习
+
+title:Meteor 添加用户
+content:本课程介绍了如何使用 Meteor 内置的账户功能非常方便的添加用户系统。
+classtime:4课时 45分钟
+classlevel:初级
+learnnum:2262人学习
+
+title:CSS3 实现下拉选择框、单选框和复选框动画特效
+content:本课程讲解，使用 CSS3 完成表单控件中，下拉选择框、单选框、复选框的动画效果，进一步加深 CSS3 中 transform、transition 的使用场景和方法。
+classtime:3课时 76分钟
+classlevel:中级
+learnnum:3897人学习
+
+title:iOS 实战项目开发:团购之商品详情
+content:本节课开始进行商品详情页的开发。即在首页点击商品后，推出商品的详细介绍界面，分为左右两个板块进行商品的详细介绍。
+classtime:3课时 51分钟
+classlevel:中级
+learnnum:2968人学习
+
+title:Android UiAutomator2 UiDevice
+content:Android 测试支持库，扩展了 UiAutomator 框架，在 UiDevice 中增加了几个常用 API，如查找对象。另外 InstrumentationRegistry 极大的扩展了 UiAutomator，运行 UiAutomator 获取到Context，这样很多 Android API 都可以在 UiAutomator 中进行调用。
+classtime:3课时 52分钟
+classlevel:初级
+learnnum:2169人学习
+
+title:Storm 架构基础：实时基础平台架构
+content:本课程将围绕 Storm 讲解实时处理基础平台的架构，从元数据管理、多节点统一配置管理、系统监控以及数据总线等几个方面进行讲解，最后对基于 Storm 的基础平台做一个全局的梳理。
+classtime:5课时 46分钟
+classlevel:中级
+learnnum:2326人学习
+
+title:WebGL Three.js 光源
+content:本课程讲解 WebGL Three.js 光源的相关技术，内容包括影响整个场景的光源，照射所有方向的光源，具有锥形效果的光源和平行光源的使用。
+classtime:5课时 72分钟
+classlevel:中级
+learnnum:2220人学习
+
+title:序列式容器之 Vector 高级编程（二）
+content:本课程主要讲解 vector 容器增加元素，删除元素，交换元素等内容。
+classtime:4课时 38分钟
+classlevel:中级
+learnnum:2092人学习
+
+title:构建轻博客系统之博文标签
+content:本课程介绍如何给文章和用户添加标签功能。
+classtime:4课时 30分钟
+classlevel:初级
+learnnum:2170人学习
+
+title:定位系统
+content:物联网时代，基于位置信息的服务越来越多，这给定位技术带来了新的挑战与机遇。本课程介绍位置信息的概念，重点介绍常见的定位技术，典型的定位系统（卫星定位，蜂窝基站定位，无线室内环境定位，新兴定位系统）以及描述了智能信息设备。
+classtime:3课时 51分钟
+classlevel:初级
+learnnum:2479人学习
+
+title:J2EE 分布式服务的基础（下）
+content:本课程介绍应用了 ZooKeeper 的使用场景，并且用 ZooKeeper 来做分布式服务的注册和发现服务，并且用 ZooKeeper 来做负载均衡。
+classtime:3课时 30分钟
+classlevel:中级
+learnnum:2431人学习
+
+title:建立对数据的感性认识（3）
+content:本课程讲解如何用 R 产生满足各种分布要求的测试数据，学习使用 R 中各种统计函数抓取数据的特征，并初步接触 R 的基础绘图函数和数据特征的可视化。
+classtime:4课时 63分钟
+classlevel:初级
+learnnum:2264人学习
+
+title:Tomcat 启动与停止
+content:本课程将讲解 Tomcat 不同安装形式下的启动与停止的方式，同时为了加深大家的理解，通过批处理脚本分析 Tomcat 的启动过程，然后针对一些常见的启动时报错的问题给大家演示如何定位以及解决问题，最后讲解如何将 Tomcat 添加到系统服务中。
+classtime:3课时 34分钟
+classlevel:初级
+learnnum:2524人学习
+
+title:神奇的回文
+content:本课程介绍回文相关的面试题，讲解回文字符串、回文数字、最长回文子串等问题，并总结解题规律，让大家掌握回文相关面试题的常用解法。
+classtime:4课时 43分钟
+classlevel:中级
+learnnum:2551人学习
+
+title:J2EE 分布式服务的基础（上）
+content:想要真正的理解分布式服务框架还是需要从 Java 源生的服务框架中去理解。本课程主要讲解了 RPC 的基础知识和使用 HTTP 通信协议开发分布式服务框架的特点，最后使用 HTTP 开发一个简单的分布式服务框架。
+classtime:3课时 32分钟
+classlevel:中级
+learnnum:2715人学习
+
+title:初识 OpenStack
+content:介绍 OpenStack 云计算平台的基础知识、发展简史、整体架构，以及 OpenStack 的开源社区,使学员了解 OpenStack 的相关背景和基本功能。
+classtime:3课时 35分钟
+classlevel:中级
+learnnum:2990人学习
+
+title:AndroidJUnitRunner
+content:编写完测试脚本，最终是要运行的，熟练掌握运行命令是学习测试框架的前提。掌握运行器在部署和开发云测试与运行框架极其重要，尤其在云测试中的使用。
+classtime:4课时 53分钟
+classlevel:初级
+learnnum:2189人学习
+
+title:Android 开发实战：极光推送集成
+content:本课程主要介绍在项目中集成第三方推送功能。以极光推送为例子，介绍在 Android 项目中集成极光推送的具体步骤和相关注意事项。同时将演示在服务端调用极光推送 API 发送推送消息的具体步骤。
+classtime:4课时 57分钟
+classlevel:中级
+learnnum:4649人学习
+
+title:FX Maker 概述
+content:本课程主要介绍 FX Maker 插件的基本情况，通过对该插件的讲解和操作演示，完成对 FX Maker插件的基本了解。
+classtime:3课时 37分钟
+classlevel:初级
+learnnum:2400人学习
+
+title:C++ 函数（２）
+content:本课程系统地讲解 C++ 中函数的数组形参、处理命令行选项、可变形参、返回数组指针和函数重载等。
+classtime:3课时 40分钟
+classlevel:初级
+learnnum:2517人学习
+
+title:SpringMVC 快速入门
+content:本课程是 SpringMVC 入门实战教程系列课程中的第一课，主要讲解 MVC 架构、SpringMVC 架构体系、DispatcherServlet 类剖析，最后还会编写一个示例程序。
+classtime:4课时 46分钟
+classlevel:中级
+learnnum:3531人学习
+
+title:WebGL Three.js 基本组件
+content:本课程讲解 WebGL Three.js 的基本组件，包括 WebGL Three.js 场景的基本功能，雾化效果，网格对象的方法和相机的使用方法。
+classtime:3课时 55分钟
+classlevel:中级
+learnnum:2228人学习
+
+title:LBS 基础地图相关功能实现
+content:本课程在地图与定位功能的基础上，深入介绍地图相关知识。首先介绍使用 LBS 进行兴趣点搜索的原因，接着添加搜索相关功能页面，并通过 iOS 原生方法 MKLocalSearch 查询附近兴趣点，实现用户位置与兴趣点之间的线路导航。
+classtime:4课时 81分钟
+classlevel:初级
+learnnum:2559人学习
+
+title:基于 Parse 的 iOS 实战项目开发之实现左右滑动导航
+content:本课程主要介绍如何利用第三方库 MMDrawerController 实现屏幕左右两侧的抽屉式导航的效果。
+classtime:5课时 47分钟
+classlevel:中级
+learnnum:2646人学习
+
+title:Photoshop——混合模式详解3
+content:本课程为混合模式部分的第3课，首先系统讲解叠加组的最后3个混合模式：线性光、点光和实色混合；然后讲解差异组的差值、排除、减去和划分；最后讲解颜色组的色相、饱和度、颜色与明度的效果及原理与计算公式。同时，对混合模式的特性进行总结，帮助学员了解运用技巧。
+classtime:4课时 66分钟
+classlevel:中级
+learnnum:2669人学习
+
+title:SSH 鲜花礼品网用户注册、登录、注销及管理
+content:本课程将在 Struts、Spring、Hibernate 整合后的框架基础上重点讲述以下几个功能：一是基于一对一共享主键映射，配合 Struts 标签添加用户到数据库，完成用户注册功能；二是基于管理员和用户两种不同身份登录到不同的操作界面，完成用户登录功能；三是用户注销功能；四是用户管理功能，包括用户密码修改、个人信息修改等功能。
+classtime:3课时 59分钟
+classlevel:中级
+learnnum:2469人学习
+
+title:序列式容器之 Vector 高级编程（一）
+content:本课程主要讲解 Vector 容器相关的元素访问方法，迭代器相关函数，元素查找和搜索，字符串处理，元素排序等内容。
+classtime:4课时 28分钟
+classlevel:中级
+learnnum:2157人学习
+
+title:Android Testing Support Library
+content:谷歌将各种测试框架整合为一个测试支持库，将 Instrumentation 框架将支持运行 UiAutomator，这样两个框架最终合体，华丽的升级，让 Instrumentation支持跨应用，让 UiAutomator 支持调用 Context。
+classtime:4课时 43分钟
+classlevel:初级
+learnnum:2173人学习
+
+title:Microsoft SQL Server 数据库的聚合操作优化技巧
+content:通过本课程的学习，掌握 T-SQL 语句中的聚合操作运算符的使用场景和注意事项，学会合理的利用聚合运算。
+classtime:3课时 41分钟
+classlevel:中级
+learnnum:2405人学习
+
+title:微信远控：让微信控制电脑
+content:本课程讲解使用微信的邮件助手给一个特定的邮箱发送命令，电脑上的 Python 程序通过读取命令来进行相应的操作。
+classtime:5课时 44分钟
+classlevel:中级
+learnnum:4957人学习
+
+title:WebGL 绘制立方体
+content:本课程讲解通过传统方法和采用顶点索引两种方法绘制立方体，以及如何为立方体的各面上色。
+classtime:3课时 54分钟
+classlevel:中级
+learnnum:2274人学习
+
+title:设计模式之备忘录模式
+content:本课程先讨论一个游戏进度状态保存问题，通过思考分析，然后提出备忘录模式进行状态保存的原理，并详细讲解示例代码。
+classtime:3课时 27分钟
+classlevel:中级
+learnnum:2280人学习
+
+title:HTTP 的请求方法
+content:本课程将深入学习 HTTP 请求报文中的请求方法，其中将对最重要同时也是最常见的方法 POST 和 GET 进行详细讲解，包括两者的区别，以及 GET 和 HEAD 的区别。
+classtime:3课时 38分钟
+classlevel:初级
+learnnum:2730人学习
+
+title:Android Design Support Library 兼容库使用详解
+content:本课程主要讲解 Android Design Support Library 的使用，带领大家搭建好环境。针对兼容库提供的8个控件逐个进行使用讲解，让大家更好的了解 Google 为我们提供的这个强大的符合 Material Design 设计的控件兼容库
+classtime:4课时 59分钟
+classlevel:中级
+learnnum:3447人学习
+
+title:YARN 下的 MapReduce 开发、运行与测试
+content:本课程主要介绍如何搭建 MapReduce 的开发环境，以及如何在 YARN 资源管理框架下运行 Hadoop 自带的 MapReduce 样例程序，如何进行基准测试等。
+classtime:3课时 49分钟
+classlevel:中级
+learnnum:2060人学习
+
+title:Windows 10应用开发之自适应视图
+content:本课程主要介绍如何设计可以自适应不同设备环境的界面视图。正因为通用应用程序可以同时运行在不同的设备上，在某些需要的情况下，会考虑为不同的设备使用不同的用户界面。比较简单的做法是运用自适应触发器，根据窗口的宽度或高度的变化来应用不同的用户界面；如果不同的设备的用户界面设计差异较大，还可以为不同设备套用不同的界面，应用程序在运行阶段会自动进行选择。
+classtime:3课时 22分钟
+classlevel:初级
+learnnum:2282人学习
+

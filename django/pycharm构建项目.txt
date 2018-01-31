@@ -1,0 +1,25 @@
+1、pycharm构建django项目时，除了projectName、templates文件夹，可以自己新建以下目录，使项目结构更加清晰：
+static：存放css、js文件，还有静态的图片资源
+log：存放项目的日志文件
+media：存放用户上传的文件
+这样的话，如果在根目录下创建app则显得文件夹过多，结构看起来不清晰，所以可以新建apps目录，专门存放我们项目创建的各个app，然后，为了在之后方便导入某个app中的某个方法，可以设置apps目录mark为Source，会在apps目录下自动生成__init__文件，否则的话每次导入都要是from apps.appName import something，这样的话省去了每次都要指定apps目录。这种做法只能在pycharm中被识别，用命令行的话会报错，因为它找不到我们的appName在哪里，所以可以在settings.py中设置apps为根搜索路径即可。
+
+
+2、配置数据库
+在settings.py中，将DATABASE字典中的信息由默认的sqlite3修改成需要使用的数据库
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'MyDBName',
+	'USER': 'username',
+	'PASSWORD': 'password',
+	'HOST': '127.0.0.1'
+    }
+}
+如果没有mysql驱动则有先安装，pip install mysql-python，windows下往往会出现问题，此时要直接下载whl文件安装，
+在http://www.lfd.uci.edu/~gohlke/pythonlibs/找到对应的文件，下载然后安装即可。pip install xxx.whl
+
+3、在Tools下的Run manage.py Task可以执行我们需要的命令
+
+4、配置静态文件路径
+我们在新建了static目录后，在settings.py中，加入STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]的配置，告诉pycharm，static的根路径在哪里

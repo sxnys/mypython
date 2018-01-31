@@ -1,0 +1,5 @@
+1、创建主项目文件夹 scrapy startproject myProject
+2、进入myProject文件夹 创建爬虫文件 scrapy genspider mySpider domain.com 指定爬虫文件名和爬取的主域名
+3、myProject下有一个scrapy.cfg的配置文件和名为myProject的子目录
+4、myProject子目录下有一个spider文件夹，里面是爬虫文件（2中用命令创建的，决定怎么爬），还有6个文件，有用的3个：
+items.py(决定爬取哪些项目)  pipelines.py（决定爬取后的内容怎样处理）  settings.py（决定由谁去处理爬取的内容）

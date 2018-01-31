@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--For IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="2To25_hbZ3dppDIimlSjcYCdJ70DrJGY3_X9TpY4NHQ" />
+    <meta name="theme-color" content="#f8f8f8">
+    <title>
+
+1034
+
+ - NJUST OnlineJudge</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="icon" sizes="192x192" href="/static/images/ICPC-Logo-Fishead.png">
+    
+<style>
+    html {
+        height: 100%;
+    }
+    body {
+        min-height: 100%;
+        position: relative;
+        padding-bottom: 74px;
+    }
+    /*--For Navbar--*/
+    body
+    {
+        padding-top: 70px;
+        /*background-color:#f5f5f5;*/
+    }
+    .container
+    {
+        /*background-color:#f7f7f7*/
+    }
+    #header-logo
+    {
+        margin-top: 1px
+    }
+    #nav_user_avatar
+    {
+        margin-top:-10px;
+        margin-bottom:-10px;
+        margin-right: 10px;
+        border-radius:2px;
+    }
+    .modal {overflow-y: auto;}
+    #register_modal-dialog .modal-dialog,
+    #login_modal-dialog .modal-dialog
+    {
+        max-width: 360px;
+    }
+    /*------For footer----*/
+    #site_footer
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        height:74px;
+        /*padding-top: 64px;*/
+        color:#999;
+    }
+    #site_footer .container
+    {
+        padding-bottom: 10px;
+    }
+    #site_footer .container .footer_text {padding-top: 18px;}
+    #site_footer p
+    {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    /*------For PC------*/
+    @media (min-width: 768px)
+    {
+        .onhover-dropdown:hover > ul.dropdown-menu
+        {
+            display:block;
+        }
+        .onhover-dropdown:hover
+        {
+            background-color: #e7e7e7;
+        }
+        #nav_search_area
+        {
+            max-width:192px;
+            transition:max-width 0.3s;
+            width:100%;
+        }
+        #nav_search_area:focus
+        {
+            max-width:512px;
+            transition:max-width 0.3s;
+            width:100%;
+        }
+    }
+    @media (max-width: 768px)
+    {
+        #search_form_xs
+        {
+            padding: 8px;
+            overflow:hidden;
+            padding-left:16px;
+        }
+    }
+    /*---popbar---*/
+
+    #pop_bar
+    {
+        position: fixed;
+        left: 20px;
+        bottom: 15%;
+        z-index:100;
+    }
+    @media (max-width: 767px) {
+        #pop_bar{bottom: 20px}
+    }
+    @media (min-width: 768px) {
+        #pop_bar:hover #pop_bar_list
+        {
+            display: block;
+            margin-left: 0;
+            transition: 0.15s
+        }
+        #pop_bar:hover #pop_button
+        {
+            opacity: 0.8;
+            -webkit-transform: rotate(315deg);
+            transform: rotate(315deg);
+            transition:  0.3s;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        }
+    }
+    #pop_button
+    {
+        width: 48px;
+        height: 48px;
+        background-color: rgb(50, 118, 177);
+        border-radius: 24px;
+        opacity: 0.4;
+        transition:  0.6s;
+        position: relative;
+    }
+    #pop_bar_list a
+    {
+        white-space: inherit;
+    }
+    #pop_bar_list a b
+    {
+        margin-right: 10px;
+    }
+    #pop_bar_list
+    {
+        display: block;
+        position: relative;
+        bottom: 48px;
+        margin-bottom: 10px;
+        max-width: 200px;
+        margin-left: -400px;
+    }
+    .open #pop_bar_list
+    {
+        display: block;
+        margin-left: 0;
+    }
+    #pop_button
+    {
+        display:block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .open #pop_button
+    {
+        opacity: 0.8;
+        -webkit-transform: rotate(315deg);
+        transform: rotate(315deg);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    }
+
+    #pop_button:before,
+    #pop_button:after
+    {
+        content: '';
+        position: absolute;
+        background-color: #ffffff;
+        left: 50%;
+        top: 50%;
+    }
+    #pop_button:before
+    {
+        width: 4px;
+        height: 36px;
+        margin-left: -2px;
+        margin-top: -18px;
+        border-radius: 2px;
+    }
+    #pop_button:after
+    {
+        width: 36px;
+        height: 4px;
+        margin-top: -2px;
+        margin-left: -18px;
+        border-radius: 2px;
+    }
+    .sms-badge {
+        margin-top: -3px;
+        margin-left: 5px;
+    }
+    .icon-unread {
+        position: absolute;
+        top: 2px;
+        left: 41px;
+        background-color: #D33E20;
+        color: white;
+        border-radius: 10px;
+        min-width: 20px;
+        padding: 0 3px;
+        text-align: center;
+        background-origin: padding-box;
+        box-shadow: 0 1px 2px rgba(0,0,0,.1),inset 0 1px 0 rgba(255,255,255,.15);
+    }
+</style>
+
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+
+    <style>
+        #no-ie{z-index:9999;font-size:20px;font-family:"Microsoft Yahei",PMingLiu,Tahoma,Arial,Verdana,sans-serif;}
+        #no-ie a{color:#A9CE7C;text-decoration:none;font-weight:normal;}
+        #no-ie a:hover{text-decoration:underline;}
+        #no-ie .no-ie-content{background:#f0f0f0;text-align:center}
+        .noiecs{display:inline-block;background:url(http://lunax.u.qiniudn.com/csg-no-ie.png) no-repeat;vertical-align:middle}
+        .sprite-NoIE{background-position:0 0;width:20px;height:20px;}
+        .sprite-Opera{background-position:0 -25px;width:20px;height:20px;}
+        .sprite-chrome{background-position:0 -50px;width:20px;height:20px;}
+        .sprite-firefox{background-position:0 -75px;width:20px;height:20px;}
+    </style>
+    <![endif]-->
+<script data-no-instant>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?54e88e39af9228281665b00b750c8128";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script data-no-instant>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-33574685-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+    
+<!--<script type="text/javascript"-->
+        <!--src="/static/js/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">-->
+<!--</script>-->
+<style>
+    .desc_text {
+        padding: 9px;
+        /*font-family: Menlo, Monaco, Consolas, "Courier New", monospace;*/
+        font-size: 16px;
+        word-wrap: break-word;
+        background-color: #f6f4ec;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        white-space: pre-wrap;
+    }
+    /*
+    .desc_text p {
+        text-indent: 2em;
+    }
+    .desc_text pre {
+        border: none;
+        background: rgba(0, 0, 0, 0.03);
+    }
+    */
+    #problem_title {
+        text-align: center;
+    }
+    pre {
+        font-size: 16px;
+        background-color: #f6f4ec;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: monospace;
+        padding: 2px;
+        line-height: 100%;
+        border: none;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    h2 {
+        color: #5A8CD8;
+    }
+    .target-fix {
+        position: relative;
+        top: -60px;
+        display: block;
+    }
+    body {
+        /*background-color:#f8f8f0;*/
+        background-color: #f7f7f7;
+    }
+    #btn_submit {
+        max-width: 120px;
+    }
+    #related_text{
+        white-space: normal;
+    }
+    #related_text a:hover{
+        text-decoration: none;
+    }
+</style>
+
+    
+    <!--[if lt IE 9]>
+    <div id="no-ie" style="visibility:visible;width:100%;height:40px;line-height:30px">
+        <div class="no-ie-content">
+            <a class="noiecs sprite-NoIE"></a><span>您正在使用较低版本的 IE 浏览网页，请升级到 <strong>IE 9 以上</strong> 或 <strong>使用其他符合标准的浏览器!</strong></span>
+            <a class="noiecs sprite-chrome"></a><a rel="nofollow" target="_blank" href="http://www.google.com/chrome/">Chrome</a>
+            <a class="noiecs sprite-firefox"></a><a rel="nofollow" target="_blank" href="http://www.mozilla.com/">Firefox</a>
+            <a class="noiecs sprite-Opera"></a><a rel="nofollow" target="_blank" href="http://www.opera.com/">Opera</a>
+        </div>
+    </div>
+    <![endif]-->
+    
+<div class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">展开</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="pull-right visible-xs" style="margin-right: 10px">
+                
+                <a href="/Login/" data-no-instant><button type="button" class="btn btn-primary navbar-btn">登录</button></a>
+                
+            </div>
+            <div class="pull-left" id="header-logo"><a href="/" ><img width="42px" height="42px" src="/static/images/ICPC-Logo-Fishead.png"/></a></div>
+            <form class="visible-xs" id="search_form_xs" role="form">
+                    <input class="form-control" id="search_area_xs" type="text" placeholder="" >
+            </form>
+        </div>
+        <div class="navbar-collapse collapse navbar-left">
+            <ul class="nav navbar-nav">
+                <li class="dropdown onhover-dropdown" >
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">平台<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Problem/Local/">Local</a></li>
+                        <li><a href="/Problem/Pku/">POJ</a></li>
+                        <li><a href="/Problem/Zju/">ZOJ</a></li>
+                        <li><a href="/Problem/Hdu/">HDU</a></li>
+                        <li><a href="/Problem/CF/">CF</a></li>
+                        <li><a href="/Problem/PAT/">PAT</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown onhover-dropdown" >
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">评测状态<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Status/Local/">Local</a></li>
+                        <li><a href="/Status/Pku/">POJ</a></li>
+                        <li><a href="/Status/Zju/">ZOJ</a></li>
+                        <li><a href="/Status/Hdu/">HDU</a></li>
+                        <li><a href="/Status/CF/">CF</a></li>
+                        <li><a href="/Status/PAT/">PAT</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown onhover-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">竞赛<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Contest/diy/Running/">DIY-contest</a></li>
+                        <li><a href="/Contest/std/Running/">STD-contest</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown onhover-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/FAQ">F.A.Q</a></li>
+                        <li><a href="/LocalSettings/">偏好设置</a></li>
+                        <li><a href="/Forum/forum.php" data-no-instant>论坛</a></li>
+                        <li><a href="https://github.com/NJUST-FishTeam/NJUST_OnlineJudge_M6_BugReport/issues">Bug Report</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a href="/About/OpenJudge/">Openjudge</a></li>
+                        <li><a href="/About/Achievement/">Achievement</a></li>
+                        <li><a href="http://www.njoj.org/">Fisteam Blog</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/gist/create/" data-no-instant><b>+</b> Gist</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="navbar-right  hidden-xs nav navbar-nav">
+            
+            <a href="/Register/" onclick="return pop_Regisger()" data-no-instant><button type="button" class="btn btn-default navbar-btn">注册</button></a>
+            <a href="/Login/" onclick="return pop_Login()" data-no-instant><button type="button" class="btn btn-primary navbar-btn">登录</button></a>
+            
+        </div>
+        <form class="navbar-form  hidden-xs" id="nav_search_form" role="form">
+            <div style="overflow:hidden">
+                <input class="form-control"  id="nav_search_area" type="text" placeholder="输入题号直接进入题目">
+            </div>
+        </form>
+    </div>
+</div>
+<!--register-modal-dialog-->
+<div class="modal fade" id="register_modal-dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">注册</h4>
+            </div>
+            <form id="modal_register_form" role="form" method="post" action="/Register/" >
+                
+                <div class="modal-body">
+                    <div class="form-group"><input type="text" class="form-control" name="username" placeholder="用户名"></div>
+                    <div class="form-group"><input type="email"class="form-control"name="email" placeholder="电子邮箱"></div>
+                    <div class="form-group"><input type="password" class="form-control" name="password" placeholder="密码"></div>
+                    <div class="form-group"><input type="password" class="form-control" name="password_rep" placeholder="重复密码"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="submit" class="btn btn-primary">注册</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--register-modal-dialog-->
+<div class="modal fade" id="login_modal-dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">登陆</h4>
+            </div>
+            <form id="modal_login_form" role="form" method="post" action="/Login/" onsubmit="return ajax_login()">
+                
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="control-label"></label>
+                        <input type="text" class="form-control" name="username" placeholder="用户名">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label"></label>
+                        <input type="password" class="form-control" name="password" placeholder="密码">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">记住我:</label>
+                        <select  class="form-control" name="session_expiry">
+                            <option value="18000">5小时</option>
+                            <option value="172800">2天</option>
+                            <option value="1209600">2周</option>
+                            <option value="5356800">2个月</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <label class="errmsg haserr pull-left"></label>
+                    <button class="btn btn-default"type="button"  data-dismiss="modal">取消</button>
+                    <button class="btn btn-primary" type="submit">登陆</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+    
+<div class="container">
+    
+    <div class="row">
+
+        <div id="problem_body" class="col-sm-12">
+            <div class="center-block" id="problem_title">
+                <h1 id="title_text">集训队红人
+                    
+                </h1>
+
+                <p>Time Limit: <span id="timelimit_text">50000 ms</span></p>
+
+                <p>Memory Limit: <span id="memorylimit_text">65535 ms</span></p>
+                
+                <div id="div_tag">
+                    <a id="a_show_tag" href="javascript:void(0);">[显示标签]</a>
+                    <p id="p_tags" hidden="hidden">[]</p>
+                    
+                    <button class="hidden" hidden="hidden" id="btn_tag"></button>
+                    
+
+                </div>
+                
+            </div>
+            <div id="problem_description">
+                <a class="target-fix" id="description"></a>
+
+                <h2>Description</h2>
+
+                <div class="desc_text" id="description_text">无聊的而自恋的zfacmilan想知道自己在集训队队员心里的关注程度，又不好意思每个人去问，只好想出一种很邪恶的方法去从侧面了解自己的受关注程度：他找一个黑客朋友要了一个可以记录所有键盘输入后台程序并利用自己机房管理员的邪恶身份植入了机房每台机器中（连笔记本他都不放过，当你上FTP下载PC^2的时候就已经中了这个木马了噢~），因此他每天都能获得队里所有人的键盘输入，他想通过所有的文本里面他的名字出现的频率来知道大家平时讨论他的次数，从而确定自己和队里其他人相比是不是更受欢迎。
+现在一个麻烦的问题来了，集训队里面所有人每天的键盘输入字符数T是相当大的，zfacmilan根本看不过来这么长的文本，他请你帮忙写一个程序，来找出那个出现最多次的名字，以及出现的次数，并找出自己名字出现的次数。</div>
+            </div>
+            <div id="problem_input">
+                <a class="target-fix" id="input"></a>
+
+                <h2>Input</h2>
+
+                <div class="desc_text" id="inputdescription_text">多case，文件尾结束。
+每个case第一行输入整个文本，总长度<=1000000。
+第二行输入集训队中zfacmilan感兴趣的人数n（1<n<=1000）。
+接下来n行每行一个人名，长度不超过50，均为小写字母，其中第一行固定为”zfacmilan”。</div>
+            </div>
+            <div id="problem_output">
+                <a class="target-fix" id="output"></a>
+
+                <h2>Output</h2>
+
+                <div class="desc_text" id="outputdescription_text">每个case输出2行。
+第一行输出出现次数最多的名字，以及出现的次数，空格隔开。、
+第二行输出”zfacmilan”，和他出现的次数，空格隔开。</div>
+            </div>
+            <div id="problem_sampleinput">
+                <a class="target-fix" id="sampleinput"></a>
+
+                <h2>Sample Input</h2>
+
+                <div class="desc_text" id="inputsample_text"><pre>Who is fishhead’s girlfriend? I don’t know, but I am curious about it. Where is zfacmilan come from? Maybe Shanxi,who cares! I love onle. I love onle. I love onle. I love onle. I love onle. I love onle. I love onle. I love onle.
+3
+zfacmilan
+fishhead
+onle</pre></div>
+            </div>
+            <div id="problem_sampleoutput">
+                <a class="target-fix" id="sampleoutput"></a>
+
+                <h2>Sample Output</h2>
+
+                <div class="desc_text" id="outputsample_text"><pre>onle 8
+zfacmilan 1</pre></div>
+            </div>
+            <div id="problem_hint">
+                <a class="target-fix" id="hint"></a>
+
+                <h2>Hint</h2>
+
+                <div class="desc_text" id="hint_text">如果单词被分开将不被统计在内，例如”zf acmilan is a good team” 这段文本中不算出现过zfacmilan，因此不要随便在读入过程中去掉空格和制表符。
+如果zfacmilan出现的次数最多的话，输出2次”zfacmilan 次数”。
+如果有两个或两个以上单词出现次数都是最多的，则输出文本中最先达到这个次数的单词。
+例如”onle onle fishhead fishhead zfacmilan” onle先达到2次，
+则输出
+onle 2
+zfacmilan 1</div>
+            </div>
+            
+            <div id="problem_source">
+                <a class="target-fix" id="source"></a>
+
+                <h2>Source</h2>
+
+                <div class="desc_text" id="source_text">ChenYi & ChenYiZe</div>
+            </div>
+            <div id="problem_related">
+                <a class="target-fix" id="source"></a>
+
+                <h2>Related problem</h2>
+
+                <div class="desc_text" id="related_text">
+                    
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <br>
+    
+    
+    <a class="btn btn-primary center-block" id="btn_submit"
+       href="/Submit/Problem/Local/1034/">提交代码</a>
+    
+    <br>
+</div>
+<div id="div_modal_add" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="max-width: 360px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">添加标签</h4>
+            </div>
+            <div class="modal-body">
+                <form action="/Problem/AddTab/" method="post">
+                    <!--NOTPROVIDED-->
+
+                    <div class="form-group">
+                        <input class="form-control" placeholder="标签名称" type="text" value="" name="tag"/>
+                    </div>
+                    <input type="text" hidden="hidden" value="Local" name="repo"/>
+                    <input type="text" hidden="hidden" value="1034" name="label"/>
+
+                    <button class="btn btn-primary">添加</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+ <div id="site_footer">
+     <div class="container">
+
+         <img class="pull-right" width="64px" height="64px" src="/static/images/ICPC-Logo-Fishead.png">
+         <div class="footer_text">
+             <small class="pull-left">服务器时间:2016-08-25 13:12:20</small>
+             <!--<div class="pull-right text-right">-->
+                 <small class="pull-right">南京理工大学开放式在线评测系统</small>
+                 <br>
+                 <p><small class="pull-right">©版权所有 2010-2016，南京理工大学 FishTeam 开发组，保留一切权利</small></p>
+             </div>
+         <!--</div>-->
+
+     </div>
+ </div>
+
+    <script src="/static/js/require.js" data-no-instant></script>
+    <script type="text/javascript" data-no-instant>
+        require.config({
+            baseUrl: "/static/js/",
+            paths: {
+                "jquery": "jquery-1.11.0.min",
+                "vue": "vue",
+                "d3": "d3.min",
+                "cal-heatmap": "cal-heatmap",
+                "babel-core": "//cdn.bootcss.com/babel-core/5.8.34",
+                "nicEdit": "nicEdit"
+            },
+            shim: {
+                "cal-heatmap": {
+                    deps: ["d3"],
+                    exports: "CalHeatMap"
+                },
+                "nicEdit":{
+                    exports: "nicEditor"
+                }
+            }
+            // "packages": ["cal-heatmap"]
+
+        });
+    </script>
+    <script src="/static/js/jquery-1.11.0.min.js" data-no-instant></script>
+    <!--<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>-->
+    <script>window.jQuery || document.write('<script src="/static/js/jquery-1.11.0.min.js">\x3C/script>')</script>
+    <script src="/static/js/bootstrap.min.js" data-no-instant></script>
+    <!-- <script src="/static/js/d3.min.js" data-no-instant></script> -->
+    <!-- <script type="text/javascript" src="/static/js/vue.js"></script> -->
+    <!-- <script src="/static/js/cal-heatmap.js" data-no-instant></script> -->
+    
+<!-- <script src="/static/js/sscr.js" data-no-instant></script> -->
+<script>
+    function fetch_unread() {
+        $.getJSON('/api/sms/unread',function(data, status) {
+            var unread_cnt = data.unread_num
+            var icon = $(".sms-unread-cnt")
+            if (unread_cnt !== 0) {
+                icon.removeClass('hidden').text(unread_cnt)
+            } else {
+                icon.addClass('hidden')
+            }
+        })
+    }
+    fetch_unread()
+    $(function(){
+        $('.onhover-dropdown').hover(function() {
+            $(".onhover-dropdown").not(this).removeClass("open");
+        },function(){});
+        $('.modal').on('shown.bs.modal',function(){
+            $(this).find('input[type="text"]')[0].focus();
+        })
+        NJOJ = Object();
+        NJOJ.local_settings = localStorage['local_settings'] && JSON.parse(localStorage['local_settings']) || {};
+        NJOJ.local_settings.save = NJOJ.local_settings.save || function(){
+            localStorage['local_settings'] = JSON.stringify(this);
+        }
+        $('html').attr('style',null)
+    });
+    function pop_Regisger()
+    {
+        $('#register_modal-dialog').modal('show');
+        return false;
+    }
+    function pop_Login()
+    {
+        $('#login_modal-dialog').modal('show');
+        return false;
+    }
+    function ajax_post(form,callback)
+    {
+        $.post(form.attr('action'),
+                form.serialize(),
+                function(data,status){
+                    if (status == "success")
+                        callback(data)
+                },"json")
+    }
+    function ajax_login()
+    {
+        var form=$("#modal_login_form")
+        form.find('.form-group').removeClass('has-error');
+        ajax_post(form,function(rep){
+            if (rep.status=="success")
+                window.location.reload();
+            else
+                for (err in rep.errors)
+                {
+                    gp=form.find("[name='"+err+"']").parent()
+                    gp.find("label").text(rep.errors[err][0]);
+                    gp.addClass('has-error')
+                }
+        })
+        return false;
+    }
+    function ajax_logout()
+    {
+        $.get('/Logout/',function(){
+            window.location.reload();
+        });
+
+        return false;
+    }
+    $("#search_form_xs,#nav_search_form").on("submit",function(){
+        val = $(this).find("input").val();
+        Pid=val.match(/\d{4}/) || val.match(/\d+[A-Z]/);
+        repo = "Pku"
+        if (val.match(/Pku|POJ/i))
+            repo = "Pku";
+        if (val.match(/Zju|ZOJ/i))
+            repo = "Zju"
+        if (val.match(/Hdu/i))
+            repo = "Hdu"
+        if (val.match(/CF/i))
+            repo = "CF"
+        window.location.assign("/Problem/"+repo + "/" + Pid + "/");
+        return false;
+    });
+    function script_ready(){
+        var callback = arguments[arguments.length-1];
+        var remain = arguments.length-1;
+        for (var i = arguments.length-2;i >= 0 ;i--){
+            var script = document.createElement('script');
+            script.setAttribute('type','text/javascript');
+            script.src = arguments[i];
+            script.onload=function(){
+                --remain || callback();
+            }
+            document.body.appendChild(script);
+        }
+    }
+</script>
+<script src="/static/js/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>
+
+
+(function() {
+    var wait_for_change_queue = [];
+    InstantClick.wait_for_change = function(callback) {
+        wait_for_change_queue.push(callback)
+    }
+    InstantClick.on('change', function(isInitialLoad) {
+        // console.log('isInitialLoad',isInitialLoad)
+        if (isInitialLoad === false) {
+            if (typeof _hmt !== 'undefined') // support 百度统计
+                _hmt.push(['_trackPageview', location.pathname + location.search]);
+            if (typeof ga !== 'undefined') // support google analytics
+                ga('send', 'pageview', location.pathname + location.search);
+        }
+        console.log('length:',$('#instant_loaded').length);
+        if($('#instant_loaded').length == 0){
+            for (var i = 0; i < wait_for_change_queue.length; i++)
+                    wait_for_change_queue[i]();
+            // console.log('execute');
+            $('body').append($("<div id='instant_loaded' class='hide'></div>"));
+        }
+        wait_for_change_queue = [];
+    });
+})();
+</script>
+
+    
+<script>
+    function roll(a) {
+        $('html,body').animate({
+            scrollTop: $(a).offset().top
+        }, 250);
+    }
+    var lastkey = {
+        key: 0,
+        time: new Date().getTime()
+    }
+    InstantClick.wait_for_change(function() {
+        if ($("#related_text a").length === 0) {
+            $("#problem_related").addClass("hidden");
+        }
+        if ($("#problem_edit_mode").length == 0)
+            $('.desc_text').each(function() {
+                if ($(this).text() == "None") {
+                    this.parentNode.style['display'] = 'none';
+                }
+            });
+        else {
+            $("#btn_submit").addClass("hidden");
+            $("#problem_related").addClass("hidden");
+        }
+        //        if (NJOJ && NJOJ.local_settings.problem_shortcut_disabled == false)
+        $(document).keyup(function(e) {
+            var disabled = false;
+            disabled |= $("#problem_edit_mode").length > 0;
+            $(".modal").each(function(i, e) {
+                if (e.style.display == 'block')
+                    disabled = true;
+            })
+            if (disabled)
+                return;
+            date = new Date()
+            dk = (lastkey.key == e.which && date.getTime() - lastkey.time < 300);
+            console.log(dk, e.which, date.getTime() - lastkey.time);
+            switch (e.which) {
+                case 68:
+                    roll('#description');
+                    break;
+                case 73:
+                    dk ? roll("#sampleinput") : roll('#input');
+                    break;
+                case 79:
+                    dk ? roll('#sampleoutput') : roll('#output');
+                    break;
+                case 83:
+                    roll('#btn_submit')
+                    $('#btn_submit').focus();
+            }
+            lastkey = {
+                key: e.which,
+                time: date.getTime()
+            }
+        })
+        if ($("#hint_text").html() == "" && $("#problem_edit_mode").length == 0)
+            $("#problem_hint").addClass("hidden");
+        script_ready("/static/js/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML", function() {
+            if($('#problem_edit_mode').length == 0) {
+                console.log("MathJax loaded");
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+                MathJax.Hub.Config({
+                    tex2jax: {
+                        inlineMath: [
+                            ['$', '$'],
+                            ['\\(', '\\)']
+                        ]
+                    },
+                    "HTML-CSS": {
+                        EqnChunkDelay: "10"
+                    },
+                    showProcessingMessages: true
+                });
+            }
+        });
+
+        $("#a_show_tag").click(function() {
+            var refs = ["label label-default", "label label-primary", "label label-success",
+                "label label-info", "label label-warning", "label label-danger"
+            ];
+            var tags = $("#p_tags").text();
+            //$("#p_tags").text(tags);
+            var objs = JSON.parse(tags);
+            var cnt = 0;
+            cnt = objs.length;
+            if (cnt > 0) {
+                for (var i = 0; i < objs.length; i++) {
+                    if (objs[i]['number'] <= 0) {
+                        continue;
+                    }
+                    var s = objs[i]['tag'].charCodeAt(0) % refs.length;
+                    var tips = objs[i]['number'] + '人推荐';
+                    var fs = 15;
+                    fs += objs[i]['number'];
+                    if (fs >= 30) {
+                        fs = 30;
+                    }
+                    var x = objs[i]['tag'];
+                    $("#btn_tag").before('<a href="#" style="text-decoration:none"> <span class="' + refs[s] + '" data-toggle="tooltip" data-placement="bottom" title="' + tips + '" style="font-size:' + fs + 'px">' + x + '</span> </a>');
+                }
+            } else {
+                $("#btn_tag").append("这道题还没标签呢, 要不添加一个?");
+            }
+            $("#btn_tag").removeClass('hidden');
+            $("#a_show_tag").hide();
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    });
+
+</script>
+
+    
+<script data-no-instant>
+    InstantClick.init(50);
+</script>
+
+    
+   
+
+</body>
+</html>

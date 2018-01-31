@@ -1,0 +1,123 @@
+1、创建django项目：django-admin startproject mysite，创建了一个名为mysite的django项目
+启动服务：进入mysite文件夹，执行python manage.py runserver
+
+2、工程目录
+.
+--manage.py（管理项目：包括数据库建立、服务器运行、测试...）
+--mysite目录
+	--settings.py（配置文件：应用、中间件、数据库、静态目录各类配置...）
+	--urls.py（URL映射配置文件：决定一个URL访问被哪个程序(函数)响应）
+	--wsgi.py（Python应用程序或框架和Web服务器之间接口）
+
+
+3、创建应用
+python manage.py startapp appname
+项目根目录下会出现appname的应用目录
+
+添加应用 mysite/settings.py -> INSTALLED_APPS
+
+
+4、应用目录
+appname
+--views.py（响应客户请求返回html页面，写完页面需要在mysite下的urls.py中添加url映射）
+--models.py（定义数据库中的表）
+--admin.py（admin相关）
+--test.py（测试相关）
+
+
+5、关于urls.py的写法
+加自己应用的url映射，在1.10版本应该这样写（模块导入）：
+from myapp.views import myfunction
+urlpatterns = [
+	...
+	url(r'myappfunction', myfunction)
+]
+而在1.10以前的版本，是这样写的
+urlpatterns = [
+	...
+	url(r'myappfunction', 'myapp.views.myfunction')
+]
+
+还有其他的写法见urls.py的注释部分，比如使用include()方法
+
+6、重要概念
+URL配置：建立URL与响应函数之间的关系
+视图Views：响应客户http请求，进行逻辑处理，返回给用户html页面
+模型Models：描述服务器存储的数据（数据库的表）
+模板templates：用来生成html页面，返回给用户的html是由数据（模型）和模板渲染出来的（1.8之后的版本需要自己创建templates文件夹，用于放置前端文件）
+
+
+7、Django查找Template
+Django按照INSTALLED_APPS中的添加顺序查找Templates
+不同APP下的Templates目录中的同名.html文件会造成冲突
+解决方法：在APP的Templates目录下创建以APP名为名称的子目录，将html文件放入新创建的目录下
+
+8、DTL（Django Template Language）
+render()函数中支持一个dict类型的参数
+该字典是后台传递到模板的参数，键为参数名
+在模板中使用{{参数名}}来直接使用
+render(request, 'appname/index.html', {'name': 'sxn'})
+在模板（html）中，<h1>{{name}}</h1>，最终页面显示sxn
+
+
+9、编写Models
+·在应用根目录下的Models.py中，创建类，继承models.Model，该类即是一张数据表，在类中创建字段
+·字段创建：字段即类里面的属性，如attr = models.CharField(max_length=64)
+·生成数据表：命令行进入manage.py同级目录，执行python manage.py makemigrations appName(可选)，再执行python manage.py migrate；会自动再app/migrations/目录下生成移植文件，执行python manage.py sqlmigrate appName 文件id查看sql语句；数据库为默认的sqlite3，为项目根目录下的db.sqlite3文件
+
+10、页面呈现数据
+后端：
+views.py中import models
+attr = models.TableClass.objects.get(pk = 1)	相当于执行select语句
+render(request, page, {'attr': attr})
+
+前端：
+模板可直接使用对象以及对象的'.'操作
+{{attr.field}}
+模板For循环 ——  {% for xx in xxs %}
+		 HTML语句
+		{% endfor %}
+
+
+11、Admin
+Admin是Django自带的一个功能强大的自动化数据管理界面
+被授权的用户可直接在Admin中管理数据库
+Django提供了许多针对Admin的定制功能
+
+配置Admin：
+创建超级用户 python manage.py createsuperuser
+Admin入口 127.0.0.1:8000/admin/
+修改settings.py中的LANGUAGE_CODE = 'zh_Hans' 页面显示中文
+配置应用 在应用下的admin.py中引入自身的models模块（或里面的模型类），编辑admin.py为admin.site.register()
+
+修改数据默认显示名称  在models.py中的对应的TableClass类中添加一个方法，根据python版本选择__str__(self)或__unicode__(self)  return self.title
+
+
+12、Django shell
+python manage.py shell
+将项目关联到shell，使用shell对项目进行一些未知的尝试
+
+
+13、url
+超链接目标地址	
+template中可以用href = "{% url 'app_name:url_name' param %}"，其中app_name和url_name都在url中配置
+url函数的名称参数：1)根urls下，写在include()的第二个参数位置，namespace='appname'
+		   2)应用下，写在url()的第三个参数位置，name='...'
+		   主要取决于是否使用include引用了另一个url配置文件
+
+14、编辑响应函数
+使用request.POST['参数名']获取表单数据
+models.TableClass.objects.create(title, content)创建对象
+对象属性赋值操作，再执行对象的save()方法即可修改数据
+前端模板中，post请求的表单内，一定要加上{% csrf_token %}
+
+
+15、templates过滤器
+{{value|filter1|filter2|...}} 可叠加，具体见Django内建过滤器
+
+
+16、创建admin配置类
+class MyAdmin(admin.ModelAdmin)
+然后注册，admin.site.register(MyModel, MyAdmin) MyModel就是models中的数据模型类
+显示其他字段：list_display = ('..', '..', ...)，支持tuple和list
+过滤器：list_filter = ('..', )

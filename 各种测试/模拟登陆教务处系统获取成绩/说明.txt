@@ -1,0 +1,4 @@
+1、模拟登陆验证码处理见'验证码识别.txt'
+2、可绕过验证码登陆，通过浏览器抓请求得知，具体见代码
+3、登陆系统之后，继续获取课程成绩页面，必须加上之前登陆时的cookie，或者使用session获取url
+4、urllib2的cookie访问见test.py，request的cookie访问见requests_cookie.py
