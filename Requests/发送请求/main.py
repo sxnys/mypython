@@ -24,7 +24,7 @@ def request_method():
 
 	# 需要登陆认证，此处是不安全的作法
 	response = requests.get(build_uri('user/emails'), 
-		auth=('sxnhys', 'lxlsxn13579'))
+		auth=('sxnhys', 'xxxxxxxxxx'))
 	print better_print(response.text)
 
 
@@ -37,11 +37,11 @@ def params_request():
 def json_request():
 	# 通过传递json把name改掉
 	# response = requests.patch(build_uri('user'), 
-	# 	auth=('sxnhys', 'lxlsxn13579'), json={'name': 'sxn'})
+	# 	auth=('sxnhys', 'xxxxxxxxxx'), json={'name': 'sxn'})
 
 	# 增加一条email
 	response = requests.post(build_uri('user/emails'),
-		auth=('sxnhys', 'lxlsxn13579'), json=['sxnhys@163.com'])
+		auth=('sxnhys', 'xxxxxxxxxx'), json=['sxnhys@163.com'])
 	print better_print(response.text)
 	print response.request.headers
 	print response.request.body
@@ -68,7 +68,7 @@ def hard_requset():
 	headers = {'User-Agent': 'fake1.3.5'}
 
 	req = Request('GET', build_uri('user/emails'), 
-		auth=('sxnhys', 'lxlsxn13579'), headers=headers)
+		auth=('sxnhys', 'xxxxxxxxxx'), headers=headers)
 	prepped = req.prepare()
 	print prepped.body
 	print prepped.headers
