@@ -1,0 +1,5 @@
+需要安装以下几个包：
+numpy
+scipy
+opencv-python
+opencv-contrib-python
