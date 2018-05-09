@@ -9,7 +9,8 @@
 a = dict(one=1, two=2, three=3)
 b = {'one': 1, 'two': 2, 'three': 3}
 c = dict(zip(['one', 'two', 'three'], [1, 2, 3]))
-d = dict([('two', 2), ('one', 1), ('three', 3)])   # 亲测这里列表元组都可以，不管是里面的键值对还是外面整体
+# 亲测这里列表元组都可以，不管是里面的键值对还是外面整体
+d = dict([('two', 2), ('one', 1), ('three', 3)])
 e = dict({'three': 3, 'one': 1, 'two': 2})
 print(a == b == c == d == e)  # True
 
@@ -17,19 +18,20 @@ print(a == b == c == d == e)  # True
 # 字典推导
 # python3中dict没有了iteritems类似的方法了，items方法就是py2里面的iteritems方法
 DIAL_CODES = [
-	(86, 'China'),
-	(91, 'India'),
-	(1, 'United States'),
-	(62, 'Indonesia'),
-	(55, 'Brazil'),
-	(92, 'Pakistan'),
-	(880, 'Bangladesh'),
-	(234, 'Nigeria'),
-	(7, 'Russia'),
-	(81, 'Japan'),
+    (86, 'China'),
+    (91, 'India'),
+    (1, 'United States'),
+    (62, 'Indonesia'),
+    (55, 'Brazil'),
+    (92, 'Pakistan'),
+    (880, 'Bangladesh'),
+    (234, 'Nigeria'),
+    (7, 'Russia'),
+    (81, 'Japan'),
 ]
 country_code = {country: code for code, country in DIAL_CODES}
-example = {code: country.upper() for country, code in country_code.items() if code < 66}
+example = {code: country.upper()
+           for country, code in country_code.items() if code < 66}
 
 
 # dict中一些常见的映射方法，一些特殊方法没有列出，defaultdict和OrderedDict会有一些各自独有的方法
