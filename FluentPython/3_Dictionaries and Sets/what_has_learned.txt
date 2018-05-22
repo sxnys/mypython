@@ -1,0 +1,31 @@
+1、字典的五种构造方式（dict.py）
+
+2、字典中一些常用但是自己之前想不到用的方法（不包括特殊方法）：(dict.py)
+d.get()
+d.fromkeys()
+d.setdefault()
+
+3、弹性键查询
+即键不存在时
+(1) 直接利用dict中的方法  d.get(key, default), d.setdefault(key, default)   （setdefault.py）
+(2) 实例化collections.defaultdict   (defaultdict.py)
+(3) 继承dict并实现__missing__特殊方法    (__missing__.py)
+(4) 子例化collection.UserDict
+
+4、字典的变种
+collections.OrderedDict
+collections.ChainMap
+collections.Counters （计数器，很有用）
+collections.UserDict
+
+5、不可变映射types.MappingProxyType
+
+6、Tips
+（1）判断某个对象是否属于某个类型(实例)  isinstance(obj, class)   第二个参数可以是一个若干个class的元组，isinstance(obj, (A, B)) <==> isinstance(obj, A) or isinstance(obj, B)
+（2）in 操作符调用的特殊方法是__contains__
+（3）enumerate第二个参数可选，是设置初始标号
+（4）sorted对字典排序实际上是对它的key进行排序，更本质的将就是对字典的迭代对象排序（__iter__），实际上就是它的键值，得到是排好序的key列表，当然了dict本身是没有顺序
+（5）set里的元素必须是可散列的，set本身是不可散列的，frozenset是散列的
+（6）chr()内置函数返回ACSII码对应的字符
+（7）unicodedata模块中的name方法返回一个字符的名字
+
