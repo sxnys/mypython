@@ -9,7 +9,7 @@ from collections import UserDict
 class StrKeyDict(UserDict):
 
 	def __missing__(self, key):
-		if key isinstance(key, str):
+		if isinstance(key, str):
 			raise KeyError(key)
 		return self[str(key)]
 

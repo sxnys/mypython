@@ -1,11 +1,15 @@
 """
 python极为灵活的参数处理机制
 调用函数时使用*和**展开可迭代对象，映射到单个参数（*其实是元组拆包，而**可以理解为字典拆包，虽然没有这种说法），*和**在使用时只能有一次
-def func(arg1, arg1, *args, arg=None, **kwargs): pass
-arg1, args2 : 传统的定位参数 (potitional argument)
+def func(arg1, arg2=None, *args, arg=None, **kwargs): pass
+arg1: 传统的定位参数 (potitional argument)
+args2 : 关键字参数(keyword argument)，调用函数时提供的实参可以是不指明关键字的
 *args : 未指定名称的参数（连续的）会被它捕获，存入元组
-arg : 仅限关键字参数(keyword argument)，须放在前面有*的参数后面，即不管是定义时，还是调用时传参，关键字参数必须都是在定位参数之后，所以定义时**kwargs一定是在*args之后的
+arg : 仅限关键字参数，调用函数时提供的实参必须是指明关键字，须放在前面有*的参数后面，即不管是定义时，还是调用时传参，关键字参数必须都是在定位参数之后，所以定义时**kwargs一定是在*args之后的
 **kwargs : 未指定名称的关键字参数会被它捕获，存入字典
+
+！！！ 不管是定义还是调用，所有的关键字参数一定是在定位参数（不包括 *参数）之后的 ！！！
+
 """
 
 def tag(name, *content, cls=None, **attrs):
