@@ -30,3 +30,19 @@
 
 # dict的.keys()、.items 和.values()方法在python3中返回字典视图，可以理解为迭代器，而之前python2的iterkeys()等函数都被废弃
 # 同时去掉的还有 dict.has_key()，用 in替代它吧
+
+# 面向对象
+# 1、python所定义的类都是新式类；Python 2 需要继承 object
+    # - py3 -
+    # class A: pass
+    # - py2 -
+    # class A(object): pass
+# 2、Python 3 可以使用直接使用 super().xxx 代替 super(Class, self).xxx
+    # - py3 -
+    # class B(A):
+    #     def __init__(self, *args):
+    #         super().__init__(*args)
+    # - py2 -
+    # class B(A):
+    #     def __init__(self, *args):
+    #         super(B, self).__init__(*args)
