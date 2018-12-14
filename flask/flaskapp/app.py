@@ -34,6 +34,7 @@ def query_url():
 
 
 ''' ==========  下面的视图函数中使用模板  =========='''
+''' 模板文件必须放在同目录下的templates目录下 '''
 # 模板文件中使用普通变量
 @app.route('/index')
 def hello_world1():
