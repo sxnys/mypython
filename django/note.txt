@@ -121,3 +121,8 @@ class MyAdmin(admin.ModelAdmin)
 然后注册，admin.site.register(MyModel, MyAdmin) MyModel就是models中的数据模型类
 显示其他字段：list_display = ('..', '..', ...)，支持tuple和list
 过滤器：list_filter = ('..', )
+
+===========================================================================
+以上是2017年看的，python2.7.13，django1.10.1；以下是2018.12看的，python3.6.4，django2.0.5
+
+17、关于Models编写中定义外键ForeignKey，2.0之后的版本多了一个必填字段on_delete
