@@ -126,3 +126,20 @@ class MyAdmin(admin.ModelAdmin)
 以上是2017年看的，python2.7.13，django1.10.1；以下是2018.12看的，python3.6.4，django2.0.5
 
 17、关于Models编写中定义外键ForeignKey，2.0之后的版本多了一个必填字段on_delete
+
+18、配置静态目录（根目录下的新建static目录）
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static/'),
+)
+html中使用静态文件：
+{% load static %}
+...
+{% static 'css/xxxx.css' %}
+
+19、设置url，2.0之前的版本通常是使用以下的url方法和可能需要的include方法
+from django.conf.urls import url, include
+2.0 版本之后通常是使用 path 代替原来的url，但是 path 不支持正则，需要使用 re_path
+from django.urls import path, include, re_path
+
+
