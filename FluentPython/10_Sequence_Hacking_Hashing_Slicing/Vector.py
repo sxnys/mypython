@@ -89,7 +89,7 @@ class Vector:
     def __format__(self, fmt_spec=''):
         if fmt_spec.endswith('h'):
             fmt_spec = fmt_spec[:-1]
-            coords = itertools.chain([abs(self)], self.angles)
+            coords = itertools.chain([abs(self)], self.angles())
             outer_fmt = '<{}>'
         else:
             coords = self
