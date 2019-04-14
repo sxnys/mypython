@@ -1,6 +1,9 @@
 from wsgiref.simple_server import make_server
+from pprint import pprint
 
 def myapp(environ, start_response):
+    pprint(environ)
+    print(environ['QUERY_STRING'])
 
     status = '200 OK'
     headers = [
